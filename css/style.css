@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+.header, .coming-soon {
+    background-color: #614600;
+    padding: 1rem;
+}
+
+.logo {
+    width: 8%;
+}
+
+h1 {
+    margin-left: 2rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+h1, h4, .social, .attribution {
+    color: white;
+}
+
+.description {
+    padding: 3rem;
+}
+
+.description, .coming-soon {
+    text-align: center;
+}
+
+h2 {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    line-height: 1.5;
+}
+
+.bot-menu {
+    margin-top: 2rem;
+    width: 40%;
+}
+
+h4 {
+    margin-bottom: 2rem;
+}
+
+.coming-soon u:hover {
+    color: #fbf207;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: underline white;
+    color: white;
+}
+
+.attribution {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:600px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo {
+        width: 20%;
+    }
+    .bot-menu {
+        width: 100%;
+    }
+}
