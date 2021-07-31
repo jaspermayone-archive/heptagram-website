@@ -11,8 +11,8 @@ body {
     justify-items: flex-start;
 }
 
-.header, .coming-soon {
-    background-color: #614600;
+.header, .coming-soon, .attribution {
+    background-color: #2C2F33;
     padding: 1rem;
 }
 
@@ -26,7 +26,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h1, h4, .social, .attribution {
+h1, h4, .attribution {
     color: white;
 }
 
@@ -34,7 +34,7 @@ h1, h4, .social, .attribution {
     padding: 3rem;
 }
 
-.description, .coming-soon {
+.description, .coming-soon, .attribution {
     text-align: center;
 }
 
@@ -57,23 +57,37 @@ h4 {
     margin-bottom: 2rem;
 }
 
-.coming-soon u:hover {
-    color: #fbf207;
-}
-
-.social {
+.coming-soon {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 a {
-    text-decoration: underline white;
+    text-decoration: none;
     color: white;
+    position: relative;
 }
 
-.attribution {
-    margin-top: 2rem;
+a::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    background: #fbf207;
+    transform-origin: 100% 0;
+    transform: scaleX(0);
+    transition: transform 0.4s;
+    position: absolute;
+}
+
+a:hover::before {
+    transform-origin: 0 0;
+    transform: scaleX(1);
+}
+
+.devs {
+    text-decoration: underline #fbf207;
 }
 
 @media screen and (max-width:600px) {
