@@ -3,11 +3,11 @@
 <h1>Heptagram Bot Website</h1>
 </div>
 
-Check out the website [here](https://heptagram.xyz)
-
 Heptagram is the all-in-one, open-source Discord bot with the goal to be the single bot needed for any server.
 <br/>
 No more music bot, mod bot, rules bot. Just Heptagram
+
+Check out the website [here](https://heptagram.xyz)
 
 ## 🤝 Contributing
 
