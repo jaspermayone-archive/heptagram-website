@@ -21,15 +21,11 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 * Github: [@J-dogcoder](https://github.com/J-dogcoder)
 
-### Head Website Developers
+### Head Website Developer
 
 👤 **MidouWebDev**
 
 * Github: [@MidouWebDev](https://github.com/MidouWebDev)
-
-👤 **Tanner T.**
-
-* Github: [@Tanner T.](https://github.com/prosilentgamer2)
 
 ## 🙏 Show your support
 
