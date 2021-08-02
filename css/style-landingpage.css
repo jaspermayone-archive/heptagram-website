@@ -7,7 +7,6 @@
 
 html {
     font-size: 62.5%;
-    font-family: "Roboto", sans-serif;
 }
 
 li {
@@ -51,6 +50,7 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-right: 20px;
+    position: relative;
 }
 
 .nav-item {
@@ -60,10 +60,39 @@ a {
 .nav-link {
     font-size: 1.6rem;
     font-weight: 400;
-    color: #fbf207;
+    color: white;
 }
+
+.nav-link::before {
+    content: '';
+    height: 2px;
+    bottom: 0;
+    background: #fbf207;
+    transform-origin: 100% 0;
+    transform: scaleX(0);
+    transition: transform 0.4s;
+    position: absolute;
+}
+
+.nav-link:hover::before {
+    transform-origin: 0 0;
+    transform: scaleX(1);
+}
+
+.features::before, .tutorials::before {
+    width: 9.2%;
+}
+
+.server::before {
+    width: 16%;
+}
+
+.commands::before {
+    width: 12%;
+}
+
 button {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .image-mobile {
@@ -71,7 +100,7 @@ button {
     display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     .nav-menu {
         position: fixed;
         top: -150%;
@@ -86,6 +115,10 @@ button {
         -moz-transition: all 0.5s ease-in;
         -ms-transition: all 0.5s ease-in;
         -o-transition: all 0.5s ease-in;
+    }
+
+    .nav-link:hover {
+        color: #fbf207;
     }
 
     .nav-menu.active {
@@ -120,15 +153,19 @@ button {
         -webkit-transform: translateY(-8px) rotate(-45deg);
         transform: translateY(-8px) rotate(-45deg);
     }
+
     .logo {
         width: 50%;
     }
+
     .login-with-discord {
         margin-bottom: 20px;
     }
+
     .nav-menu li {
         margin-bottom: 60px;
     }
+
     .image-mobile {
         display: flex;
         justify-content: center;
@@ -140,10 +177,12 @@ button {
     ul {
         width: 55%;
     }
+
     nav {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
+
 
 .login-with-discord,
 .invite-the-bot {
