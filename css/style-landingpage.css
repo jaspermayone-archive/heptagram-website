@@ -181,6 +181,18 @@ button {
     nav {
         font-size: 20px;
     }
+
+    .features::before, .tutorials::before {
+        width: 6%;
+    }
+    
+    .server::before {
+        width: 10%;
+    }
+    
+    .commands::before {
+        width: 8%;
+    }
 }
 
 
