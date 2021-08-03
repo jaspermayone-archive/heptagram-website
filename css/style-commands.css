@@ -260,7 +260,7 @@ tr {
     border-bottom: 2px solid white;
 }
 
-.tabs button {
+.tab-button {
     background-color: #2c2f33;
     border: none;
     color: white;
@@ -270,7 +270,7 @@ tr {
     padding: 10px;
 }
 
-.tabs button:hover {
+.tab-button:hover {
     text-decoration: underline #fbf207;
 }
 
@@ -283,4 +283,11 @@ tr {
 b {
     background-color: #2c2f33;
     padding: 5px;
+}
+
+main div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
