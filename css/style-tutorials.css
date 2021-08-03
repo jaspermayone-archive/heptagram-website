@@ -25,6 +25,7 @@ a {
     border-bottom: 1px solid #2c2f33;
     background-color: #2c2f33;
 }
+
 .logo {
     margin-left: 1rem;
     width: 20%;
@@ -195,9 +196,7 @@ button {
     }
 }
 
-
-.login-with-discord,
-.invite-the-bot {
+.login-with-discord {
     margin-right: 1rem;
     padding: 1px 5px;
     background-color: #7289da;
@@ -213,4 +212,11 @@ button {
 
 .active {
     color : #fbf207;
+}
+
+h1 {
+    color: #2c2f33;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 25px;
 }
