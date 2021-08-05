@@ -81,9 +81,12 @@ a {
     transform: scaleX(1);
 }
 
-.features::before,
 .tutorials::before {
     width: 9.2%;
+}
+
+.home::before {
+    width: 6.8%;
 }
 
 .server::before {
@@ -185,9 +188,12 @@ a {
         font-size: 20px;
     }
 
-    .features::before,
     .tutorials::before {
         width: 6%;
+    }
+
+    .home::before {
+        width: 3.3%;
     }
 
     .server::before {
