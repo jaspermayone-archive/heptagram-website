@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="theme-color" content="#ffff00" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Heptagram | The All-in-one Discord Bot">
-    <meta name="description"
-        content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server.No more, music bot, mod bot, rules bot.     Just Heptagram!">
-    <meta name="keywords"
-        content="Heptagram, Heptagram Bot, Heptagram open source, Heptagram Discord Bot, Bot, Discord Bot, Moderation Discord, Discord Server Bot, Music Bot, Rules Bot, The Discord Bot, All-in-one discord bot, open source discord bot">
+    <meta name="description" content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server.No more, music bot, mod bot, rules bot.     Just Heptagram!">
+    <meta name="keywords" content="Heptagram, Heptagram Bot, Heptagram open source, Heptagram Discord Bot, Bot, Discord Bot, Moderation Discord, Discord Server Bot, Music Bot, Rules Bot, The Discord Bot, All-in-one discord bot, open source discord bot">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
     <meta name="author" content="Heptagram Team">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Heptagram | The All-in-one Discord Bot" />
-    <meta property="og:description"
-        content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server.No more, music bot, mod bot, rules bot. Just Heptagram!" />
+    <meta property="og:description" content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server.No more, music bot, mod bot, rules bot. Just Heptagram!" />
     <meta property="og:url" content="https://heptagram.xyz" />
     <meta property="og:site_name" content="Heptagram.xyz" />
     <meta property="og:image" content="https://heptagram.xyz/img/full-heptagram-logo.png" />
@@ -28,7 +24,6 @@
     <script src="https://kit.fontawesome.com/64fdbfc31c.js" crossorigin="anonymous"></script>
     <script defer src="main.js"></script>
 </head>
-
 <body>
     <header class="header">
         <nav class="navbar">
@@ -294,36 +289,11 @@
             </div>
         </div>
         <p class="other-command">
+            <i class="fas fa-lightbulb fa-2x" style="margin-bottom: 1.5rem;"></i>
+            <br>
             Use <b class="command">!help</b> to see the Heptagram Menu on your server and read more about the
             commands
         </p>
     </main>
-
-    <!-- js part -->
-    <script>
-        function setupTabs() {
-            document.querySelectorAll('.tabs__button').forEach(button => {
-                button.addEventListener('click', () => {
-                    const sideBar = button.parentElement
-                    const tabsContainer = sideBar.parentElement
-                    const tabsNumber = button.dataset.forTab
-                    const tabToActivate = tabsContainer.querySelector(`.tabs__content[data-tab="${tabsNumber}"]`)
-
-                    sideBar.querySelectorAll(".tabs__button").forEach(button => {
-                        button.classList.remove("tabs__button--active")
-                    })
-                    tabsContainer.querySelectorAll(".tabs__content").forEach(tab => {
-                        tab.classList.remove("tabs__content--active")
-                    })
-                    button.classList.add("tabs__button--active")
-                    tabToActivate.classList.add("tabs__content--active")
-                })
-            })
-        }
-        document.addEventListener('DOMContentLoaded', () => {
-            setupTabs()
-        })
-    </script>
 </body>
-
 </html>

@@ -7,8 +7,6 @@
 
 html {
     font-size: 62.5%;
-    width: 100vw;
-    height: 100vh;
 }
 
 li {
@@ -208,6 +206,7 @@ a {
     color: white;
     border: none;
     cursor: pointer;
+    margin-left: 30px;
 }
 
 .nav-menu.active .logo {
@@ -265,24 +264,13 @@ tr {
     border-bottom: 2px solid white;
 }
 
-.tab-button {
-    background-color: #2c2f33;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font-size: 15px;
-    outline: hidden;
-    padding: 10px;
-}
-
-.tab-button:hover {
-    text-decoration: underline #fbf207;
-}
-
 .other-command {
     margin-top: 3rem;
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
+    padding: 15px;
+    background-color: #2c2f33;
+    color: white;
 }
 
 b {
@@ -290,7 +278,6 @@ b {
     padding: 5px;
 }
 
-/* styles for the tabs */
 .tabs {
     display: flex;
     justify-content: center;
@@ -307,14 +294,15 @@ b {
     background-color: #2c2f33;
     border: none;
     width: 100%;
+    font-size: 15px;
     cursor: pointer;
-    color: #fbf207;
+    color: white;
 }
 
 .tabs__button--active {
-    font-weight: bold;
     border: 2px solid #fbf207;
-    background-color: #2c2f31;
+    background-color: #2c2f33;
+    color: #fbf207;
 }
 
 .tabs__content {
@@ -322,26 +310,55 @@ b {
     font-size: 0.8rem;
     display: none;
 }
+
 .tabs__content--active {
     display: inline-block;
+    margin-top: -1.4rem;
 }
+
 .tabs__content > :first-child {
     margin-top: 0;
 }
 
-@media (max-width: 600px) {
+@media only screen and (min-width:465px) and (max-width: 593px) { 
     .tabs {
         flex-direction: column;
         width: 100%;
     }
+
     .tabs__sidebar {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         width: 100%;
-        margin: 0 10px;
+        margin: 0 auto;
     }
+
     .tabs__content{
-        justify-content: flex-start;
-        margin-left: -15%;
+        justify-content: center;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .tabs {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .tabs__sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .tabs__content{
+        justify-content: center;
+        margin-left: -3rem;
+        margin-top: 3rem;
     }
 }
