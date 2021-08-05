@@ -97,9 +97,9 @@ a {
     width: 12%;
 }
 
-.button {
+/* .button {
     margin-left: 30px;
-}
+} */
 
 .image-mobile {
     visibility: hidden;
@@ -164,9 +164,9 @@ a {
         width: 50%;
     }
 
-    .login-with-discord {
+    /* .login-with-discord {
         margin-bottom: 20px;
-    }
+    } */
 
     .nav-menu li {
         margin-bottom: 60px;
@@ -205,7 +205,7 @@ a {
     }
 }
 
-.login-with-discord {
+/* .login-with-discord {
     margin-right: 1rem;
     padding: 1px 5px;
     background-color: #7289da;
@@ -213,7 +213,7 @@ a {
     border: none;
     cursor: pointer;
     margin-left: 30px;
-}
+} */
 
 .nav-menu.active .logo {
     display: flex;
