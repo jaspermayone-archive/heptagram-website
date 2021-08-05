@@ -7,6 +7,8 @@
 
 html {
     font-size: 62.5%;
+    width: 100vw;
+    height: 100vh;
 }
 
 li {
@@ -24,6 +26,7 @@ a {
     padding: 1rem 1.5rem;
     border-bottom: 1px solid #2c2f33;
     background-color: #2c2f33;
+    width: 100%;
 }
 
 .logo {
@@ -65,7 +68,7 @@ a {
 }
 
 .nav-link::before {
-    content: '';
+    content: "";
     height: 2px;
     bottom: 0;
     background: #fbf207;
@@ -80,7 +83,8 @@ a {
     transform: scaleX(1);
 }
 
-.features::before, .tutorials::before {
+.features::before,
+.tutorials::before {
     width: 9.2%;
 }
 
@@ -92,7 +96,7 @@ a {
     width: 12%;
 }
 
-button {
+.button {
     margin-left: 30px;
 }
 
@@ -183,14 +187,15 @@ button {
         font-size: 20px;
     }
 
-    .features::before, .tutorials::before {
+    .features::before,
+    .tutorials::before {
         width: 6%;
     }
-    
+
     .server::before {
         width: 10%;
     }
-    
+
     .commands::before {
         width: 8%;
     }
@@ -211,7 +216,7 @@ button {
 }
 
 .active {
-    color : #fbf207;
+    color: #fbf207;
 }
 
 h1 {
@@ -285,9 +290,58 @@ b {
     padding: 5px;
 }
 
-main div {
+/* styles for the tabs */
+.tabs {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
+}
+
+.tabs__sidebar {
+    width: 125px;
+    flex-shrink: 0;
+}
+
+.tabs__button {
+    display: block;
+    padding: 10px;
+    background-color: #2c2f33;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    color: #fbf207;
+}
+
+.tabs__button--active {
+    font-weight: bold;
+    border: 2px solid #fbf207;
+    background-color: #2c2f31;
+}
+
+.tabs__content {
+    padding: 15px;
+    font-size: 0.8rem;
+    display: none;
+}
+.tabs__content--active {
+    display: inline-block;
+}
+.tabs__content > :first-child {
+    margin-top: 0;
+}
+
+@media (max-width: 600px) {
+    .tabs {
+        flex-direction: column;
+        width: 100%;
+    }
+    .tabs__sidebar {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0 10px;
+    }
+    .tabs__content{
+        justify-content: flex-start;
+        margin-left: -15%;
+    }
 }

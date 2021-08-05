@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="theme-color" content="#ffff00" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Heptagram | The All-in-one Discord Bot">
-    <meta name="description" content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server.No more, music bot, mod bot, rules bot.     Just Heptagram!">
-    <meta name="keywords" content="Heptagram, Heptagram Bot, Heptagram open source, Heptagram Discord Bot, Bot, Discord Bot, Moderation Discord, Discord Server Bot, Music Bot, Rules Bot, The Discord Bot, All-in-one discord bot, open source discord bot">
+    <meta name="description"
+        content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server.No more, music bot, mod bot, rules bot.     Just Heptagram!">
+    <meta name="keywords"
+        content="Heptagram, Heptagram Bot, Heptagram open source, Heptagram Discord Bot, Bot, Discord Bot, Moderation Discord, Discord Server Bot, Music Bot, Rules Bot, The Discord Bot, All-in-one discord bot, open source discord bot">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
     <meta name="author" content="Heptagram Team">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Heptagram | The All-in-one Discord Bot" />
-    <meta property="og:description" content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server.No more, music bot, mod bot, rules bot. Just Heptagram!" />
+    <meta property="og:description"
+        content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server.No more, music bot, mod bot, rules bot. Just Heptagram!" />
     <meta property="og:url" content="https://heptagram.xyz" />
     <meta property="og:site_name" content="Heptagram.xyz" />
     <meta property="og:image" content="https://heptagram.xyz/img/full-heptagram-logo.png" />
@@ -24,6 +28,7 @@
     <script src="https://kit.fontawesome.com/64fdbfc31c.js" crossorigin="anonymous"></script>
     <script defer src="main.js"></script>
 </head>
+
 <body>
     <header class="header">
         <nav class="navbar">
@@ -59,228 +64,266 @@
     </header>
     <main>
         <h1>Heptagram Commands</h1>
-        <div class="tab-content" id="Moderation">
-            <button class="tab-button">Moderation</button>
-            <table>
-                <thead>
+        <div class="tabs">
+            <div class="tabs__sidebar">
+                <button class="tabs__button tabs__button--active" data-for-tab="1">Moderation</button>
+                <button class="tabs__button" data-for-tab="2">Bot Settings & Automation</button>
+                <button class="tabs__button" data-for-tab="3">Informational</button>
+                <button class="tabs__button" data-for-tab="4">Music</button>
+                <button class="tabs__button" data-for-tab="5">Fun</button>
+            </div>
+            <div class="tabs__content tabs__content--active" data-tab="1">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
                     <tr>
-                        <th>Command</th>
-                        <th>Description</th>
+                        <td class="command">!ban <@>
+                        </td>
+                        <td>Ban User</td>
                     </tr>
-                </thead>
-                <tr>
-                    <td class="command">!ban <@></td>
-                    <td>Ban User</td>
-                </tr>
-                <tr>
-                    <td class="command">!clear</td>
-                    <td>Clear messages</td>
-                </tr>
-                <tr>
-                    <td class="command">!kick <@></td>
-                    <td>Kick User</td>
-                </tr>
-                <tr>
-                    <td class="command">!mute <@></td>
-                    <td>Mute User</td>
-                </tr>
-                <tr>
-                    <td class="command">!unmute <@></td>
-                    <td>Unmute User</td>
-                </tr>
-                <tr>
-                    <td class="command">!wipe</td>
-                    <td>Clear with options</td>
-                </tr>
-            </table>
-        </div>
-        <div class="tab-content" id="Bot Settings & Automation">
-            <button class="tab-button">Bot Settings & Automation</button>
-            <table>
-                <thead>
                     <tr>
-                        <th>Command</th>
-                        <th>Description</th>
+                        <td class="command">!clear</td>
+                        <td>Clear messages</td>
                     </tr>
-                </thead>
-                <tr>
-                    <td class="command">!setup</td>
-                    <td>Configures the bot in the server</td>
-                </tr>
-                <tr>
-                    <td class="command">!language</td>
-                    <td>Sets/Displays the server language</td>
-                </tr>
-                <tr>
-                    <td class="command">!uptime</td>
-                    <td>Gets the server uptime</td>
-                </tr>
-                <tr>
-                    <td class="command">!announce</td>
-                    <td>Make an announcement</td>
-                </tr>
-                <tr>
-                    <td class="command">!invite</td>
-                    <td>Sends the bot invite link</td>
-                </tr>
-                <tr>
-                    <td class="command">!prefix</td>
-                    <td>Sets/Displays the prefix</td>
-                </tr>
-                <tr>
-                    <td class="command">!command</td>
-                    <td>Enables/Disables the command you want</td>
-                </tr>
-                <tr>
-                    <td class="command">!channelonly</td>
-                    <td>Makes a command work only in some channels</td>
-                </tr>
-                <tr>
-                    <td class="command">!requiredrole</td>
-                    <td>Specifies what role each command requires</td>
-                </tr>
-            </table>
-        </div>
-        <div class="tab-content" id="Informational">
-            <button class="tab-button">Informational</button>
-            <table>
-                <thead>
                     <tr>
-                        <th>Command</th>
-                        <th>Description</th>
+                        <td class="command">!kick <@>
+                        </td>
+                        <td>Kick User</td>
                     </tr>
-                </thead>
-                <tr>
-                    <td class="command">!ping</td>
-                    <td>Returns the Bot Ping</td>
-                </tr>
-                <tr>
-                    <td class="command">!api</td>
-                    <td>Gives Heptagram API infos</td>
-                </tr>
-                <tr>
-                    <td class="command">!bots</td>
-                    <td>Shows Heptagram Bots informations</td>
-                </tr>
-                <tr>
-                    <td class="command">!contributors</td>
-                    <td>Shows the Heptagram Contributors</td>
-                </tr>
-                <tr>
-                    <td class="command">!info</td>
-                    <td>Shows Heptagram's informations</td>
-                </tr>
-                <tr>
-                    <td class="command">!repo</td>
-                    <td>Sends the Heptagram Repository link</td>
-                </tr>
-                <tr>
-                    <td class="command">!support</td>
-                    <td>Sends the bot Support Server link</td>
-                </tr>
-                <tr>
-                    <td class="command">!server</td>
-                    <td>Gives your server informations</td>
-                </tr>
-                <tr>
-                    <td class="command">!user</td>
-                    <td>Shows your informations</td>
-                </tr>
-                <tr>
-                    <td class="command">!avatar</td>
-                    <td>Gets user avatar</td>
-                </tr>
-            </table>
-        </div>
-        <div class="tab-content" id="Music">
-            <button class="tab-button">Music</button>
-            <table>
-                <thead>
                     <tr>
-                        <th>Command</th>
-                        <th>Description</th>
+                        <td class="command">!mute <@>
+                        </td>
+                        <td>Mute User</td>
                     </tr>
-                </thead>
-                <tr>
-                    <td class="command">!play</td>
-                    <td>Play the given song</td>  
-                </tr>
-                <tr>
-                    <td class="command">!skip</td>
-                    <td>Skip the playing song</td>
-                </tr>
-                <tr>
-                    <td class="command">!stop</td>
-                    <td>Stop the playing song</td>
-                </tr>
-            </table>
-        </div>
-        <div class="tab-content" id="Fun">
-            <button class="tab-button">Fun</button>
-            <table>
-                <thead>
                     <tr>
-                        <th>Command</th>
-                        <th>Description</th>
+                        <td class="command">!unmute <@>
+                        </td>
+                        <td>Unmute User</td>
                     </tr>
-                </thead>
-                <tr>
-                    <td class="command">!cat</td>
-                    <td>Sends a random cat picture</td>
-                </tr>
-                <tr>
-                    <td class="command">!clyde</td>
-                    <td>Get a custom clyde message</td>
-                </tr>
-                <tr>
-                    <td class="command">!coinflip</td>
-                    <td>Flips a coin for heads or tails</td>
-                </tr>
-                <tr>
-                    <td class="command">!dadjoke</td>
-                    <td>Sends a random dad joke</td>
-                </tr>
-                <tr>
-                    <td class="command">!diceroll</td>
-                    <td>Rolls a dice for a number 1-6</td>
-                </tr>
-                <tr>
-                    <td class="command">!encouragement</td>
-                    <td>Says a random form of encouragement</td>
-                </tr>
-                <tr>
-                    <td class="command">!hack <@></td>
-                    <td>Just a fun command</td>
-                </tr>
-                <tr>
-                    <td class="command">!hug <@></td>
-                    <td>Hug someone</td>
-                </tr>
-                <tr>
-                    <td class="command">!joke</td>
-                    <td>Displays a joke</td>
-                </tr>
-                <tr>
-                    <td class="command">!math</td>
-                    <td>Calculates, solves an equation</td>
-                </tr>
-                <tr>
-                    <td class="command">!moviequote</td>
-                    <td>Says a quote from a movie provided, or a random movie</td>
-                </tr>
-                <tr>
-                    <td class="command">!slap</td>
-                    <td>Slaps a user</td>
-                </tr>
-                <tr>
-                    <td class="command">!urban</td>
-                    <td>Gets an urban dictionary definition</td>
-                </tr>
-            </table>
+                    <tr>
+                        <td class="command">!wipe</td>
+                        <td>Clear with options</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tabs__content" data-tab="2">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td class="command">!setup</td>
+                        <td>Configures the bot in the server</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!language</td>
+                        <td>Sets/Displays the server language</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!uptime</td>
+                        <td>Gets the server uptime</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!announce</td>
+                        <td>Make an announcement</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!invite</td>
+                        <td>Sends the bot invite link</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!prefix</td>
+                        <td>Sets/Displays the prefix</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!command</td>
+                        <td>Enables/Disables the command you want</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!channelonly</td>
+                        <td>Makes a command work only in some channels</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!requiredrole</td>
+                        <td>Specifies what role each command requires</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tabs__content" data-tab="3">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td class="command">!ping</td>
+                        <td>Returns the Bot Ping</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!api</td>
+                        <td>Gives Heptagram API infos</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!bots</td>
+                        <td>Shows Heptagram Bots informations</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!contributors</td>
+                        <td>Shows the Heptagram Contributors</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!info</td>
+                        <td>Shows Heptagram's informations</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!repo</td>
+                        <td>Sends the Heptagram Repository link</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!support</td>
+                        <td>Sends the bot Support Server link</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!server</td>
+                        <td>Gives your server informations</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!user</td>
+                        <td>Shows your informations</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!avatar</td>
+                        <td>Gets user avatar</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tabs__content" data-tab="4">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td class="command">!play</td>
+                        <td>Play the given song</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!skip</td>
+                        <td>Skip the playing song</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!stop</td>
+                        <td>Stop the playing song</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tabs__content" data-tab="5">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td class="command">!cat</td>
+                        <td>Sends a random cat picture</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!clyde</td>
+                        <td>Get a custom clyde message</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!coinflip</td>
+                        <td>Flips a coin for heads or tails</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!dadjoke</td>
+                        <td>Sends a random dad joke</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!diceroll</td>
+                        <td>Rolls a dice for a number 1-6</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!encouragement</td>
+                        <td>Says a random form of encouragement</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!hack <@>
+                        </td>
+                        <td>Just a fun command</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!hug <@>
+                        </td>
+                        <td>Hug someone</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!joke</td>
+                        <td>Displays a joke</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!math</td>
+                        <td>Calculates, solves an equation</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!moviequote</td>
+                        <td>Says a quote from a movie provided, or a random movie</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!slap</td>
+                        <td>Slaps a user</td>
+                    </tr>
+                    <tr>
+                        <td class="command">!urban</td>
+                        <td>Gets an urban dictionary definition</td>
+                    </tr>
+                </table>
+            </div>
         </div>
         <p class="other-command">
-            Use <b class="command">!help</b> to see the Heptagram Menu on your server and read more about the commands
+            Use <b class="command">!help</b> to see the Heptagram Menu on your server and read more about the
+            commands
         </p>
     </main>
+
+    <!-- js part -->
+    <script>
+        function setupTabs() {
+            document.querySelectorAll('.tabs__button').forEach(button => {
+                button.addEventListener('click', () => {
+                    const sideBar = button.parentElement
+                    const tabsContainer = sideBar.parentElement
+                    const tabsNumber = button.dataset.forTab
+                    const tabToActivate = tabsContainer.querySelector(`.tabs__content[data-tab="${tabsNumber}"]`)
+
+                    sideBar.querySelectorAll(".tabs__button").forEach(button => {
+                        button.classList.remove("tabs__button--active")
+                    })
+                    tabsContainer.querySelectorAll(".tabs__content").forEach(tab => {
+                        tab.classList.remove("tabs__content--active")
+                    })
+                    button.classList.add("tabs__button--active")
+                    tabToActivate.classList.add("tabs__content--active")
+                })
+            })
+        }
+        document.addEventListener('DOMContentLoaded', () => {
+            setupTabs()
+        })
+    </script>
 </body>
+
 </html>
