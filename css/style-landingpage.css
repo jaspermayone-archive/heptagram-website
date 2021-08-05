@@ -80,19 +80,19 @@ a {
 }
 
 .tutorials::before {
-    width: 9.2%;
+    width: 12.5%;
 }
 
 .home::before {
-    width: 6.8%;
+    width: 9%;
 }
 
 .server::before {
-    width: 16%;
+    width: 23%;
 }
 
 .commands::before {
-    width: 12%;
+    width: 17%;
 }
 
 button {
@@ -162,9 +162,9 @@ button {
         width: 50%;
     }
 
-    .login-with-discord {
+    /* .login-with-discord {
         margin-bottom: 20px;
-    }
+    } */
 
     .nav-menu li {
         margin-bottom: 60px;
@@ -203,8 +203,9 @@ button {
     }
 }
 
+/* .login-with-discord soon */
 
-.login-with-discord, .invite-the-bot, .invite-the-bot-mobile {
+.invite-the-bot, .invite-the-bot-mobile {
     margin-right: 1rem;
     padding: 1px 5px;
     background-color: #7289da;
