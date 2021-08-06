@@ -225,16 +225,17 @@ button {
 }
 
 .description {
-    margin-top: 2rem;
+    background-color: #2c2f33;
+    color: white;
 }
 
-.description:after {
+.description:after, footer::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.left, .right {
+.left, .right, .left-part, .right-part {
     float: left;
     width: 50%;
     padding: 10px;
@@ -303,14 +304,18 @@ button {
         margin-bottom: 3rem;
     }
 
-    footer p {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+    .features {
+        flex-direction: column;
     }
 
-    footer {
-        padding: 3rem;
-        bottom: 0;
+    .feature {
+        margin-top: 4rem;
+        font-size: 15px;
+    }
+
+    .invite {
+        padding: 10px;
+        text-align: center;
     }
 }
 
@@ -324,20 +329,92 @@ button {
     }
 }
 
-footer {
-    background-color: #2C2F33;
-    padding: 2rem;
-    font-size: 15px;
-    text-align: center;
-    color: white;
-}
-
-footer p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
 
 .devs {
     text-decoration: underline #fbf207;
     color: white;
+}
+
+.features {
+    background-color: #2c2f33;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px 0;
+}
+
+h2 {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: underline #fbf207;
+}
+
+.feature {
+    font-size: 14px;
+    text-align: center;
+}
+
+.feature-link {
+    text-decoration: underline #fbf207;
+    color: white;
+}
+
+.feature:hover {
+    color: #fbf207;
+}
+
+.before-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.invite {
+    margin-top: 3rem;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.reminder {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 3rem;
+}
+
+footer {
+    background-color: #2c2f33;
+    font-size: 15px;
+    padding: 2rem;
+    color: white;
+}
+
+.right-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-part img {
+    width: 40%;
+    margin-bottom: 1rem;
+}
+
+.left-part p {
+    margin-bottom: 1rem;
+}
+
+.footer-links {
+    font-size: 18px;
+    color: #fbf207;
+    margin-bottom: 2rem;
+}
+
+.right-part a {
+    text-decoration: underline #fbf207;
+    color: white;
+    margin-top: 1.75rem;
 }
