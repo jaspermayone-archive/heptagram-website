@@ -19,13 +19,13 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 👤 **J-dogcoder**
 
-* Github: [@J-dogcoder](https://github.com/J-dogcoder)
+* GitHub: [@J-dogcoder](https://github.com/J-dogcoder)
 
 ### Head Website Developer
 
 👤 **MidouWebDev**
 
-* Github: [@MidouWebDev](https://github.com/MidouWebDev)
+* GitHub: [@MidouWebDev](https://github.com/MidouWebDev)
 
 ## 🙏 Show your support
 
