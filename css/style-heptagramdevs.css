@@ -19,7 +19,6 @@ h1 {
 
 main {
     margin-top: 10rem;
-    text-align : center;
 }
 
 a {
@@ -36,17 +35,17 @@ footer::after {
 footer {
     background-color: #2c2f33;
     font-size: 15px;
-    padding: 2rem;
+    padding: 1rem;
     color: white;
 }
 
 .footer-links {
     font-size: 18px;
     color: #fbf207;
-    margin-bottom: 2rem;
+    margin-bottom: 0.75rem;
 }
 
-.left-part, .right-part {
+.left-part {
     float: left;
     width: 50%;
     padding: 10px;
@@ -73,4 +72,70 @@ footer {
     text-decoration: underline #fbf207;
     color: white;
     margin-top: 1.75rem;
+}
+
+.owner {
+    margin-top: -7rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.head-developer, .developer {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    background-color: #2C2F33;
+}
+
+.name {
+    text-decoration: underline #2C2F33;
+}
+
+.position {
+    color: darkgray;
+    margin-top: -0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.developers {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.others {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.other-contributors {
+    background-color: #2C2F33;
+    color: white;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.other-contributors:hover {
+    color: #fbf207;
+    text-decoration: underline white;
+}
+
+@media screen and (max-width:800px) {
+    .header {
+        flex-direction: column;
+    }
 }
