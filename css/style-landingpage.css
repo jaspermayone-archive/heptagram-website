@@ -80,8 +80,8 @@ a {
     transform: scaleX(1);
 }
 
-.api-link::before {
-    width: 5%;
+.api::before {
+    width: 6%;
 }
 
 .home::before {
