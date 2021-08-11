@@ -25,6 +25,7 @@ a {
     border-bottom: 1px solid #2c2f33;
     background-color: #2c2f33;
 }
+
 .logo {
     margin-left: 1rem;
     width: 20%;
@@ -79,8 +80,8 @@ a {
     transform: scaleX(1);
 }
 
-.tutorials::before {
-    width: 12.5%;
+.api::before {
+    width: 5%;
 }
 
 .home::before {
@@ -186,8 +187,8 @@ button {
         font-size: 20px;
     }
 
-    .tutorials::before {
-        width: 6%;
+    .api::before {
+        width: 5%;
     }
     
     .home::before {
