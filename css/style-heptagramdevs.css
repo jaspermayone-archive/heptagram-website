@@ -139,3 +139,12 @@ footer {
         flex-direction: column;
     }
 }
+
+.credit-midouwebdev {
+    text-align: center;
+}
+
+.credit-midouwebdev a {
+    text-decoration: none;
+    color: #fbf207;
+}
