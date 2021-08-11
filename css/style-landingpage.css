@@ -80,20 +80,20 @@ a {
     transform: scaleX(1);
 }
 
-.api::before {
+.api-link::before {
     width: 5%;
 }
 
 .home::before {
-    width: 9%;
+    width: 9.5%;
 }
 
 .server::before {
-    width: 23%;
+    width: 24.5%;
 }
 
 .commands::before {
-    width: 17%;
+    width: 18.5%;
 }
 
 button {
@@ -188,7 +188,7 @@ button {
     }
 
     .api::before {
-        width: 5%;
+        width: 3%;
     }
     
     .home::before {
@@ -241,6 +241,10 @@ button {
     width: 50%;
     padding: 10px;
     text-align: center;
+}
+
+.left-part, .right-part {
+    margin-bottom: 2rem;
 }
 
 .left h1 {
@@ -418,4 +422,18 @@ footer {
     text-decoration: underline #fbf207;
     color: white;
     margin-top: 1.75rem;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.credit-midouwebdev {
+    text-align: center;
+}
+
+.credit-midouwebdev a {
+    text-decoration: none;
+    color: #fbf207;
 }
