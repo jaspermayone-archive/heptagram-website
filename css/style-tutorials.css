@@ -80,20 +80,20 @@ a {
     transform: scaleX(1);
 }
 
-.tutorials::before {
-    width: 9.2%;
+.api::before {
+    width: 6%;
 }
 
 .home::before {
-    width: 6.8%;
+    width: 9.2%;
 }
 
 .server::before {
-    width: 16%;
+    width: 25%;
 }
 
 .commands::before {
-    width: 12%;
+    width: 18%;
 }
 
 /* button {
@@ -187,7 +187,7 @@ a {
         font-size: 20px;
     }
 
-    .tutorials::before {
+    .api::before {
         width: 6%;
     }
     
@@ -254,6 +254,7 @@ footer {
     width: 50%;
     padding: 10px;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .right-part {
@@ -276,4 +277,18 @@ footer {
     text-decoration: underline #fbf207;
     color: white;
     margin-top: 1.75rem;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.credit-midouwebdev {
+    text-align: center;
+}
+
+.credit-midouwebdev a {
+    text-decoration: none;
+    color: #fbf207;
 }
