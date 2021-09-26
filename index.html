@@ -1,73 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>
-      Heptagram Bot
-    </title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-  </head>
- <style>
- body, html {
-   height: 100%;
-   margin: 0;
- }
- .bgimg {
-   background-image: url('/img/HeptagramLogo.png');
-   height: 100%;
-   background-position: center;
-   background-size: cover;
-   position: relative;
-   font-family: "Courier New", Courier, monospace;
-   font-size: 25px;
- }
-
- .topleft {
-   position: absolute;
-   top: 0;
-   left: 16px;
- }
-
- .bottomleft {
-   position: absolute;
-   bottom: 0;
-   left: 16px;
- }
-
- .middle {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   text-align: center;
-   background-color : #2C2F33;
-   color: white;
-   padding: 10px;
- }
-
- hr {
-   margin: auto;
-   width: 40%;
- }
-
- a {
-   text-decoration: none;
-   color: blue;
-   text-decoration: underline #fbf207;
- }
-
- </style>
- <body>
-
- <div class="bgimg">
-   <div class="middle">
-     <h1>COMING SOON!</h1>
-     <hr>
-     <p>Great things lie behind the curtain. Heptagram is coming soon! Stay tuned for new updates in our <a href="https://discord.gg/HSupF99kpq">official Discord server</a></p>
-   </div>
- </div>
-
- </body>
- </html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#ffff00" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Heptagram | The All-in-one Discord Bot">
+    <meta name="description" content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server.">
+    <meta name="keywords" content="Heptagram, Heptagram Bot, Heptagram open source, Heptagram Discord Bot, Bot, Discord Bot, Moderation Discord, Discord Server Bot, Music Bot, Rules Bot, The Discord Bot, All-in-one discord bot, open source discord bot">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Heptagram Team">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Heptagram | The All-in-one Discord Bot" />
+    <meta property="og:description" content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server." />
+    <meta property="og:url" content="https://heptagram.xyz" />
+    <meta property="og:site_name" content="Heptagram.xyz" />
+    <meta property="og:image" content="https://heptagram.xyz/img/full-heptagram-logo.png" />
+    <title>Heptagram | The All-in-one Discord Bot</title>
+    <link rel="stylesheet" href="css/style-landingpage.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/64fdbfc31c.js" crossorigin="anonymous"></script>
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <img src="img/full-heptagram-logo.png" alt="Heptagram Logo" class="logo">
+            <ul class="nav-menu">
+                <li class="nav-item second">
+                    <a href="" class="nav-link home active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://discord.gg/HSupF99kpq" class="nav-link server">Support Server</a>
+                </li>
+                <li class="nav-item">
+                    <a href="commands.html" class="nav-link commands">Commands</a>
+                </li>
+                <li class="nav-item">
+                    <a href="api.html" class="nav-link api">API</a>
+                </li>
+                <!-- <li>
+                    <a href="" class="nav-link">
+                        <button class="login-with-discord">
+                            <i class="fab fa-discord" style="transform: scale(1.75); padding: 10px;"></i>
+                            Login with Discord
+                        </button>
+                    </a>
+                </li> -->
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <div class="description">
+        <div class="left">
+            <h1>Heptagram is the all-in-one Discord Bot for your server !</h1>
+            <p>
+                Heptagram is the All-In-One, Open-Source Discord Bot with the goal to be the single bot needed for any server.
+            </p>
+            <a href="">
+                <button class="invite-the-bot">
+                    Invite the bot
+                    <i class="fab fa-discord" style="transform: scale(1.75); padding: 10px;"></i>
+                </button>
+            </a>
+        </div>
+        <div class="right">
+            <img src="img/bot-menu.PNG" alt="Bot Menu" class="bot">
+            <a href="">
+                <button class="invite-the-bot-mobile">
+                    Invite the bot
+                    <i class="fab fa-discord" style="transform: scale(1.75); padding: 10px;"></i>
+                </button>
+            </a>
+        </div>
+    </div>
+    <div class="features">
+        <h2>Features</h2>
+        <div class="feature">
+            <i class="fas fa-shield-alt fa-2x" style="color: white;margin-bottom: 1rem;"></i>
+            <a class="feature-link" href="commands.html">
+                <p>Moderation</p>
+            </a>
+        </div>
+        <div class="feature">
+            <i class="fas fa-robot fa-2x" style="color: white;margin-bottom: 1rem;"></i>
+            <a class="feature-link" href="commands.html">
+                <p>Automation</p>
+            </a>
+        </div>
+        <div class="feature">
+            <i class="fas fa-music fa-2x" style="color: white;margin-bottom: 1rem;"></i>
+            <a class="feature-link" href="commands.html">
+                <p>Music</p>
+            </a>
+        </div>
+        <div class="feature">
+            <i class="far fa-laugh-beam fa-2x" style="color: white;margin-bottom: 1rem;"></i>
+            <a class="feature-link" href="commands.html">
+                <p>Fun</p>
+            </a>
+        </div>
+    </div>
+    <div class="before-footer">
+        <p class="invite">
+            Enhance your own discord server now, for free !
+        </p>
+        <a href="">
+            <button class="invite-the-bot reminder">
+                Invite the bot
+                <i class="fab fa-discord" style="transform: scale(1.75); padding: 10px;"></i>
+            </button>
+        </a>
+    </div>
+    <footer>
+        <div class="left-part">
+            <img src="img/full-heptagram-logo.png" alt="Heptagram Logo" class="logo-footer">
+            <p class="small-description">The All-in-one Discord Bot for your Server.</p>
+            <a class="github-link" href="https://github.com/Heptagram-Bot">
+                <i class="fab fa-github fa-2x" style="color: white; margin-left:1rem;"></i>
+            </a>
+            <a class="discord-link" href="https://discord.gg/HSupF99kpq">
+                <i class="fab fa-discord fa-2x" style="color: white; margin-left:1rem;"></i>
+            </a>
+        </div>
+        <div class="right-part">
+            <p class="footer-links">
+                Links
+            </p>
+            <a href="https://discord.gg/HSupF99kpq">Support Server</a>
+            <a href="commands.html">Bot Commands</a>
+            <a href="heptagram-devs.html">Contributors</a>
+            <a href="api.html">API</a>
+        </div>
+        <div class="credit-midouwebdev">
+            <p>This website was designed and coded by the Heptagram Website team, lead by <a class="main-dev" href="https://github.com/MidouWebDev">MidouWebDev</a></p>
+        </div>
+    </footer>
+</body>
+</html>
