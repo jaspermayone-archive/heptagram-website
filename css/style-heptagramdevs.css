@@ -1,3 +1,19 @@
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #2C2F33; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #738ADB;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #F9F871;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -71,7 +87,7 @@ footer {
 .right-part a {
     text-decoration: underline #fbf207;
     color: white;
-    margin-top: 1.75rem;
+    margin-top: 1.25rem;
 }
 
 .owner {
@@ -141,6 +157,7 @@ footer {
 }
 
 .credit-midouwebdev {
+    margin-top: 2.5rem;
     text-align: center;
 }
 
