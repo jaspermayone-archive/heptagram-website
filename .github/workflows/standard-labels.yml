@@ -17,4 +17,4 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         owner-name: 'Heptagram-Bot'
-        repository-name: 'website'
+        repository-name: 'heptagram.xyz'
