@@ -403,6 +403,7 @@ h2 {
     width: 200px;
     height: 40px;
     margin-bottom: 3rem;
+    font-size: 16px;
 }
 
 footer {
@@ -452,4 +453,18 @@ h2 {
 .credit-midouwebdev a {
     text-decoration: none;
     color: #fbf207;
+}
+
+.discord-link, 
+.github-link {
+    color: white;
+}
+
+.discord-link:hover, 
+.github-link:hover {
+    color: #fbf207;
+}
+
+.github-link {
+    margin-right: 1rem;
 }
