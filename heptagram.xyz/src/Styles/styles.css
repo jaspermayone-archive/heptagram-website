@@ -390,9 +390,11 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 .invite {
+    background-color: white;
     margin-top: 3rem;
     font-size: 22px;
     font-weight: bold;
@@ -467,4 +469,16 @@ h2 {
 
 .github-link {
     margin-right: 1rem;
+}
+
+.before-footer a {
+    background-color: white;
+}
+
+.left h1, .features h2 {
+    color: white;
+}
+
+.nav-menu {
+    list-style: none;
 }
