@@ -2,8 +2,6 @@ import React from 'react'
 
 import HeptagramLogo from '../assets/full-heptagram-logo.png';
 
-import '../styles/styles.css'
-
 function Footer() {
     return (
         <footer>
