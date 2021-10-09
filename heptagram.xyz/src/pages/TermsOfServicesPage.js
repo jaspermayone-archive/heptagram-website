@@ -2,7 +2,7 @@ import React from 'react'
 import FooterLegals from '../components/Footer-Legals';
 import HeaderTOS from '../components/Header-TOS';
 
-import '../styles/style-tos.css';
+import '../styles/style-legals.css';
 
 function TermsOfServicesPage() {
     return (
