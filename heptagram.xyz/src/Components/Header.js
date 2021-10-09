@@ -2,9 +2,10 @@ import React from 'react'
 
 import HeptagramLogo from '../assets/full-heptagram-logo.png';
 
+import '../styles/styles.css';
+
 function Header() {
     return (
-        <header class="header">
         <nav class="navbar">
             <img src={HeptagramLogo} alt="Heptagram Logo" class="logo" />
             <ul class="nav-menu">
@@ -27,7 +28,6 @@ function Header() {
                 <span class="bar"></span>
             </div>
         </nav>
-    </header>
     )
 }
 
