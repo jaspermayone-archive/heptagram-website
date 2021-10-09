@@ -1,0 +1,69 @@
+* {
+    background: #2C2F33;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #2C2F33; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #738ADB;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #F9F871;
+}
+
+.body {
+    font-family: 'Lexend Deca', cursive;
+    padding: 0px 30px;
+    background: #2C2F33;
+    color: white;
+}
+
+h1, h2 {
+    color: #F9F871;
+    text-align: center;
+    margin-top: 5rem;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 17px;
+}
+
+ul {
+    margin: 2rem;
+    font-size: 16px;
+}
+
+li {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.last {
+    margin-bottom: 4rem;
+}
+
+.credit-midouwebdev {
+    text-align: center;
+}
+
+.credit-midouwebdev a {
+    text-decoration: none;
+    color: #fbf207;
+}
