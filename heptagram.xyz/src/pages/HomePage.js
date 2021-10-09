@@ -5,6 +5,8 @@ import BotMenu from '../assets/bot-menu.PNG';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
+import '../styles/styles.css';
+
 function HomePage() {
     return (
         <div className="HomePage">
