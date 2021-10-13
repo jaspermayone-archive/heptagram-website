@@ -1,31 +1,31 @@
-/** {
+.legals * {
     background: #2C2F33;
 }
 
-::-webkit-scrollbar {
+.legals ::-webkit-scrollbar {
     width: 7px;
 }
   
-::-webkit-scrollbar-track {
+.legals ::-webkit-scrollbar-track {
     background: #2C2F33; 
 }
    
-::-webkit-scrollbar-thumb {
+.legals ::-webkit-scrollbar-thumb {
     background: #738ADB;
 }
   
-::-webkit-scrollbar-thumb:hover {
+.legals ::-webkit-scrollbar-thumb:hover {
     background: #F9F871;
 }
 
-.body {
+.legals .body {
     font-family: 'Lexend Deca', cursive;
     padding: 0px 30px;
     background: #2C2F33;
     color: white;
 }
 
-h1, h2 {
+.legals h1, .legals h2 {
     color: #F9F871;
     text-align: center;
     margin-top: 5rem;
@@ -33,37 +33,37 @@ h1, h2 {
     margin-bottom: 2rem;
 }
 
-h1 {
+.legals h1 {
     font-size: 32px;
 }
 
-h2 {
+.legals h2 {
     font-size: 24px;
 }
 
-p {
+.legals p {
     font-size: 17px;
 }
 
-ul {
+.legals ul {
     margin: 2rem;
     font-size: 16px;
 }
 
-li {
+.legals li {
     list-style-type: disc;
     margin-left: 2rem;
 }
 
-.last {
+.legals .last {
     margin-bottom: 4rem;
 }
 
-.credit-midouwebdev {
+.legals .credit-midouwebdev {
     text-align: center;
 }
 
-.credit-midouwebdev a {
+.legals .credit-midouwebdev a {
     text-decoration: none;
     color: #fbf207;
-}*/
+}
