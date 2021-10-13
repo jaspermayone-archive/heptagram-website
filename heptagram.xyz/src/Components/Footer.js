@@ -5,18 +5,18 @@ import HeptagramLogo from '../assets/full-heptagram-logo.png';
 function Footer() {
     return (
         <footer>
-            <div class="left-part">
-                <img src={HeptagramLogo} alt="Heptagram Logo" class="logo-footer" />
-                <p class="small-description">The All-in-one Discord Bot for your Server.</p>
-                <a class="github-link" href="https://github.com/Heptagram-Bot">
-                    <i class="fab fa-github fa-2x"></i>
+            <div className="left-part">
+                <img src={HeptagramLogo} alt="Heptagram Logo" className="logo-footer" />
+                <p className="small-description">The All-in-one Discord Bot for your Server.</p>
+                <a className="github-link" href="https://github.com/Heptagram-Bot">
+                    <i className="fab fa-github fa-2x"></i>
                 </a>
-                <a class="discord-link" href="https://discord.gg/HSupF99kpq">
-                    <i class="fab fa-discord fa-2x"></i>
+                <a className="discord-link" href="https://discord.gg/HSupF99kpq">
+                    <i className="fab fa-discord fa-2x"></i>
                 </a>
             </div>
-            <div class="right-part">
-                <p class="footer-links">
+            <div className="right-part">
+                <p className="footer-links">
                     Links
                 </p>
                 <a href="https://heptagram.xyz">Home</a>
@@ -25,8 +25,8 @@ function Footer() {
                 <a href="/privacy-policy">Privacy Policy</a>
                 <a href="/terms-of-service">Terms of Service</a>
             </div>
-            <div class="credit-midouwebdev">
-                <p>This website was designed and coded by the Heptagram Website team, lead by <a class="main-dev" href="https://github.com/MidouWebDev">MidouWebDev</a></p>
+            <div className="credit-midouwebdev">
+                <p>This website was designed and coded by the Heptagram Website team, lead by <a className="main-dev" href="https://github.com/MidouWebDev">MidouWebDev</a></p>
             </div>
     </footer>
     )
