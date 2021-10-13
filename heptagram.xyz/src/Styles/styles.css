@@ -1,4 +1,4 @@
-*{
+.homePage *{
     /*margin: 0;*/
     padding: 0;
     box-sizing: border-box;
@@ -10,6 +10,7 @@ body{
 
 html{
     font-size: 62.5%;
+    background-color: #2c2f33;
 }
 
 .homePage ::-webkit-scrollbar {
@@ -492,4 +493,13 @@ html{
 
 header {
     display: block;
+}
+
+
+/* To render the icons and prevent a [] from coming */
+.fab {
+    font-family: "Font Awesome 5 Brands" !important;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free" !important;
 }
