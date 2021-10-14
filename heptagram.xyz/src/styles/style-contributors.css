@@ -1,194 +1,207 @@
-* {
-    background-color: white !important;
-    background-color: #2c2f33;
-}
-
-::-webkit-scrollbar {
-    width: 7px;
-}
-  
-::-webkit-scrollbar-track {
-    background: #2C2F33; 
-}
-   
-::-webkit-scrollbar-thumb {
-    background: #738ADB;
-}
-  
-::-webkit-scrollbar-thumb:hover {
-    background: #F9F871;
-}
-
-.body {
-    margin: 0;
+.devs * {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lexend Deca', sans-serif;
 }
 
-.header {
+.devs ::-webkit-scrollbar {
+    width: 7px;
+}
+  
+.devs ::-webkit-scrollbar-track {
+    background: #2C2F33; 
+}
+   
+.devs ::-webkit-scrollbar-thumb {
+    background: #738ADB;
+}
+  
+.devs ::-webkit-scrollbar-thumb:hover {
+    background: #F9F871;
+}
+
+.devs .body {
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: white !important;
+}
+
+.devs .header {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #2C2F33 !important;
 }
 
-h1 {
+.devs h1 {
     color: white !important;
     background-color: #2c2f33 !important;
     margin-left: 0.75rem;
 }
 
-.main {
-    margin-top: 10rem;
+.devs main {
+    margin-top: 12rem;
 }
 
-a {
+.devs a {
     text-decoration: underline #2C2F33 !important;
     color: black;
 }
 
-.logo {
-    width: 20%;
+.devs .logo {
+    width: 23%;
 }
 
-footer::after {
+.devs footer::after {
     content: "";
     display: table;
     clear: both;
 }
 
-footer {
+.devs footer {
     background-color: #2c2f33 !important;
     font-size: 15px;
     padding: 1rem;
     color: white;
 }
 
-.footer-links {
+.devs .footer-links {
     font-size: 18px;
     background-color: #2c2f33 !important;
     color: #fbf207;
     margin-bottom: 1rem;
 }
 
-.left-part {
+.devs .left-part {
     float: left;
     width: 50%;
     padding: 10px;
     text-align: center;
     background-color: #2c2f33 !important;
+    margin-top: 2rem;
 }
 
-.right-part {
+.devs .right-part {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #2c2f33 !important;
+    margin-top: 2rem;
 }
 
-.left-part img {
+.devs .left-part img {
     width: 40%;
     margin-bottom: 1rem;
     background-color: #2c2f33 !important;
 }
 
-.left-part p {
+.devs .left-part p {
     margin-bottom: 1rem;
     background-color: #2c2f33 !important;
 }
 
-.left-part a {
+.devs .left-part a {
     background-color: #2c2f33 !important;
 }
 
-.right-part a {
+.devs .right-part a {
     text-decoration: underline #fbf207 !important;
     color: white;
-    margin-top: 1.25rem;
+    margin-top: 2rem;
     background-color: #2c2f33 !important;
 }
 
-.discord-link, .github-link {
+.devs .discord-link, .devs .github-link {
     background-color: #2c2f33 !important;
 }
 
-.owner {
+.devs .owner {
     margin-top: -7rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     text-align: center;
 }
 
-.head-developer, .developer {
+.devs .head-developer, .devs .developer {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
-.avatar {
+.devs .avatar {
     border-radius: 50%;
-    height: 14rem;
-    width: 14rem;
+    height: 16rem;
+    width: 16rem;
     background-color: #2C2F33 !important;
     margin-bottom: 1rem;
 }
 
-.name {
+.devs .name {
     text-decoration: underline #2C2F33;
     margin-bottom: 1rem;
+    font-size: 1.6rem;
 }
 
-.position {
+.devs .position {
     color: darkgray;
     margin-top: -0.5rem;
     margin-bottom: 0.25rem;
+    font-size: 1.6rem;
 }
 
-.developers {
+.devs .developers {
     margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
-.others {
+.devs .others {
     margin-top: 3rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.other-contributors {
+.devs .other-contributors {
     background-color: #2C2F33 !important;
     color: white;
     outline: none;
-    font-size: 14px;
+    font-size: 15px;
     border: none;
     cursor: pointer;
     padding: 1rem;
     font-family: 'Lexend Deca', sans-serif;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
-.other-contributors:hover {
+.devs .other-contributors:hover {
     color: #fbf207;
     text-decoration: underline white;
 }
 
 @media screen and (max-width:800px) {
-    .header {
+    .devs .header {
         flex-direction: column;
+    }
+    .devs .logo{
+        width: 85%;
+    }
+
+    .devs h1{
+        margin: 1.5rem 0rem;
     }
 }
 
-.credit-midouwebdev {
+.devs .credit-midouwebdev {
     margin-top: 2.5rem;
     text-align: center;
     background-color: #2c2f33 !important;
 }
 
-.credit-midouwebdev a {
+.devs .credit-midouwebdev a {
     text-decoration: none;
     color: #fbf207;
     background-color: #2c2f33 !important;

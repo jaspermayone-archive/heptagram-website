@@ -1,5 +1,5 @@
+
 .homePage *{
-    /*margin: 0;*/
     padding: 0;
     box-sizing: border-box;
     font-family: "Lexend Deca", sans-serif;
@@ -359,11 +359,6 @@ html{
 }
 
 
-.homePage .devs {
-    text-decoration: underline #fbf207;
-    color: white;
-}
-
 .homePage .features {
     background-color: #2c2f33;
     color: white;
@@ -418,7 +413,7 @@ html{
 
 .homePage footer {
     background-color: #2c2f33;
-    font-size: 15px;
+    font-size: 15px !important;
     padding: 2rem;
     color: white;
 }
