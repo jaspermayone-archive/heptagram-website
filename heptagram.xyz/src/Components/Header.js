@@ -1,6 +1,6 @@
 import React from 'react'
 
-import HeptagramLogo from '../assets/full-heptagram-logo.png';
+import HeptagramLogo from '../Assets/full-heptagram-logo.png';
 
 function Header() {
     return (

@@ -1,11 +1,11 @@
 import React from 'react'
 
-import BotMenu from '../assets/bot-menu.PNG';
+import BotMenu from '../Assets/bot-menu.PNG';
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 
-import '../styles/styles.css';
+import '../Styles/styles.css';
 
 function HomePage() {
     return (

@@ -1,11 +1,11 @@
 import React from 'react';
 import {Route, BrowserRouter as Router} from 'react-router-dom';
 
-import HomePage from './pages/HomePage';
+import HomePage from './Pages/HomePage';
 //import BotCommandsPage from './pages/BotCommandsPage';
 // import ContributorsPage from './pages/ContributorsPage';
-import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
-import TermsOfServicesPage from './pages/TermsOfServicesPage';
+import PrivacyPolicyPage from './Pages/PrivacyPolicyPage';
+import TermsOfServicesPage from './Pages/TermsOfServicesPage';
 
 function App() {
   return (

@@ -1,8 +1,8 @@
 import React from 'react'
-import FooterLegals from '../components/Footer-Legals';
-import HeaderTOS from '../components/Header-TOS';
+import FooterLegals from '../Components/Footer-Legals';
+import HeaderTOS from '../Components/Header-TOS';
 
-import '../styles/style-legals.css';
+import '../Styles/style-legals.css';
 
 function TermsOfServicesPage() {
     return (
