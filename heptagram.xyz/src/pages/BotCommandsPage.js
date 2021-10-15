@@ -87,7 +87,7 @@ function BotCommandsPage() {
                             </tr>
                             <tr>
                                 <td className="command">!invite</td>
-                                <td>Sends the bot invite link</td>
+                                <td>Sends a link to invite the bot</td>
                             </tr>
                             <tr>
                                 <td className="command">!prefix</td>
@@ -123,7 +123,7 @@ function BotCommandsPage() {
                             </tr>
                             <tr>
                                 <td className="command">!api</td>
-                                <td>Gives Heptagram API infos</td>
+                                <td>Gives Heptagram API information</td>
                             </tr>
                             <tr>
                                 <td className="command">!bots</td>
@@ -151,7 +151,7 @@ function BotCommandsPage() {
                             </tr>
                             <tr>
                                 <td className="command">!user</td>
-                                <td>Shows your informations</td>
+                                <td>Shows a user information</td>
                             </tr>
                             <tr>
                                 <td className="command">!avatar</td>
@@ -179,7 +179,7 @@ function BotCommandsPage() {
                             </tr>
                             <tr>
                                 <td className="command">!stop</td>
-                                <td>Stop the playing song</td>
+                                <td>Stop the current song</td>
                             </tr>
                             </tbody>
                         </table>
