@@ -8,10 +8,10 @@ function Footer() {
                 <img src={HeptagramLogo} alt="Heptagram Logo" className="logo-footer" />
                 <p className="small-description">The All-in-one Discord Bot for your Server.</p>
                 <a className="github-link" href="https://github.com/Heptagram-Bot">
-                    <i className="fab fa-github fa-2x"></i>
+                    <i className="fab fa-github fa-2x" style={{color: 'white',  marginLeft:'1rem'}}></i>
                 </a>
                 <a className="discord-link" href="https://discord.gg/HSupF99kpq">
-                    <i className="fab fa-discord fa-2x"></i>
+                    <i className="fab fa-discord fa-2x" style={{color: 'white',  marginLeft:'1rem'}}></i>
                 </a>
             </div>
             <div className="right-part">

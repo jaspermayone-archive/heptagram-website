@@ -1,5 +1,4 @@
 .homePage *{
-    /*margin: 0;*/
     padding: 0;
     box-sizing: border-box;
     font-family: "Lexend Deca", sans-serif;
@@ -418,7 +417,7 @@ html{
 
 .homePage footer {
     background-color: #2c2f33;
-    font-size: 15px;
+    font-size: 15px !important;
     padding: 2rem;
     color: white;
 }

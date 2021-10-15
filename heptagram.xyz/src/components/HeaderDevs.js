@@ -4,10 +4,10 @@ import HeptagramLogo from '../assets/full-heptagram-logo.png'
 
 function HeaderDevs() {
     return (
-        <div class="header">
-            <img src={HeptagramLogo} alt="heptagram-logo" class="logo" />
-            <h1>Developers</h1>
-        </div>
+        <header className="header">
+            <img src={HeptagramLogo} alt="heptagram-logo" className="logo" />
+            <h1 style={{fontSize: '3.1rem'}}>Developers</h1>
+        </header>
     )
 }
 
