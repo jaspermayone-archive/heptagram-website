@@ -1,23 +1,23 @@
-* {
+.cmd * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Lexend Deca", sans-serif;
 }
 
-::-webkit-scrollbar {
+.cmd ::-webkit-scrollbar {
     width: 7px;
 }
   
-::-webkit-scrollbar-track {
+.cmd ::-webkit-scrollbar-track {
     background: #2C2F33; 
 }
    
-::-webkit-scrollbar-thumb {
+.cmd ::-webkit-scrollbar-thumb {
     background: #738ADB;
 }
   
-::-webkit-scrollbar-thumb:hover {
+.cmd ::-webkit-scrollbar-thumb:hover {
     background: #F9F871;
 }
 
@@ -25,15 +25,15 @@
     font-size: 62.5%;
 }*/
 
-li {
+.cmd li {
     list-style: none;
 }
 
-a {
+.cmd a {
     text-decoration: none;
 }
 
-.navbar {
+.cmd .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,17 +43,17 @@ a {
     width: 100%;
 }
 
-.logo {
+.cmd .logo {
     margin-left: 1rem;
     width: 20%;
     cursor: pointer;
 }
 
-.hamburger {
+.cmd .hamburger {
     display: none;
 }
 
-.bar {
+.cmd .bar {
     display: block;
     width: 25px;
     height: 3px;
@@ -63,7 +63,7 @@ a {
     background-color: #fff;
 }
 
-.nav-menu {
+.cmd .nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,17 +71,17 @@ a {
     position: relative;
 }
 
-.nav-item {
+.cmd .nav-item {
     margin-left: 5rem;
 }
 
-.nav-link {
+.cmd .nav-link {
     font-size: 1.6rem;
     font-weight: 400;
     color: white;
 }
 
-.nav-link::before {
+.cmd .nav-link::before {
     content: "";
     height: 2px;
     bottom: 0;
@@ -92,24 +92,24 @@ a {
     position: absolute;
 }
 
-.nav-link:hover::before {
+.cmd .nav-link:hover::before {
     transform-origin: 0 0;
     transform: scaleX(1);
 }
 
-.api::before {
+.cmd .api::before {
     width: 6%;
 }
 
-.home::before {
+.cmd .home::before {
     width: 9.2%;
 }
 
-.server::before {
+.cmd .server::before {
     width: 25%;
 }
 
-.commands::before {
+.cmd .commands::before {
     width: 18%;
 }
 
@@ -117,13 +117,13 @@ a {
     margin-left: 30px;
 } */
 
-.image-mobile {
+.cmd .image-mobile {
     visibility: hidden;
     display: none;
 }
 
 @media only screen and (max-width: 1000px) {
-    .nav-menu {
+    .cmd .nav-menu {
         position: fixed;
         top: -150%;
         flex-direction: column;
@@ -139,31 +139,31 @@ a {
         -o-transition: all 0.5s ease-in;
     }
 
-    .nav-link:hover {
+    .cmd .nav-link:hover {
         color: #fbf207;
     }
 
-    .nav-menu.active {
+    .cmd .nav-menu.active {
         top: 0%;
         padding: 10px;
         background-color: #2c2f33;
         height: 100%;
     }
 
-    .nav-item {
+    .cmd .nav-item {
         margin: 2.5rem 0;
     }
 
-    .hamburger {
+    .cmd .hamburger {
         display: block;
         cursor: pointer;
     }
 
-    .hamburger.active .bar:nth-child(2) {
+    .cmd .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    .hamburger.active .bar:nth-child(1) {
+    .cmd .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
         -moz-transform: translateY(8px) rotate(45deg);
         -ms-transform: translateY(8px) rotate(45deg);
@@ -171,12 +171,12 @@ a {
         -webkit-transform: translateY(8px) rotate(45deg);
     }
 
-    .hamburger.active .bar:nth-child(3) {
+    .cmd .hamburger.active .bar:nth-child(3) {
         -webkit-transform: translateY(-8px) rotate(-45deg);
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .logo {
+    .cmd .logo {
         width: 50%;
     }
 
@@ -184,11 +184,11 @@ a {
         margin-bottom: 20px;
     } */
 
-    .nav-menu li {
+    .cmd .nav-menu li {
         margin-bottom: 60px;
     }
 
-    .image-mobile {
+    .cmd .image-mobile {
         display: flex;
         justify-content: center;
         visibility: visible;
@@ -196,27 +196,27 @@ a {
 }
 
 @media screen and (min-width: 1500px) {
-    ul {
+    .cmd ul {
         width: 55%;
     }
 
-    nav {
+    .cmd nav {
         font-size: 20px;
     }
 
-    .api::before {
+    .cmd .api::before {
         width: 3%;
     }
 
-    .home::before {
+    .cmd .home::before {
         width: 3.3%;
     }
 
-    .server::before {
+    .cmd .server::before {
         width: 10%;
     }
 
-    .commands::before {
+    .cmd .commands::before {
         width: 8%;
     }
 }
@@ -231,16 +231,16 @@ a {
     margin-left: 30px;
 } */
 
-.nav-menu.active .logo {
+.cmd .nav-menu.active .logo {
     display: flex;
     justify-content: center;
 }
 
-.active {
+.cmd .active {
     color: #fbf207;
 }
 
-h1 {
+.cmd h1 {
     color: #2c2f33;
     text-align: center;
     margin-top: 4rem;
@@ -248,11 +248,11 @@ h1 {
     font-size: 25px;
 }
 
-main {
+.cmd main {
     padding: 20px;
 }
 
-table {
+.cmd table {
     border-collapse: collapse;
     margin: 20px 0;
     font-size: 15px;
@@ -260,33 +260,33 @@ table {
     background-color: #2c2f33;
 }
 
-thead {
+.cmd thead {
     color: #fbf207;
     background-color: #2c2f33;
     text-align: center;
     font-weight: bold;
 }
 
-th {
+.cmd th {
     padding: 15px;
     border-bottom: 2px solid #fbf207;
 }
 
-td {
+.cmd td {
     padding: 12px 15px;
     text-align: center;
     color: white;
 }
 
-.command {
+.cmd .command {
     color: #fbf207;
 }
 
-tr {
+.cmd tr {
     border-bottom: 2px solid white;
 }
 
-.other-command {
+.cmd .other-command {
     margin-top: 3rem;
     font-size: 17px;
     text-align: center;
@@ -295,22 +295,22 @@ tr {
     color: white;
 }
 
-b {
+.cmd b {
     background-color: #2c2f33;
     padding: 5px;
 }
 
-.tabs {
+.cmd .tabs {
     display: flex;
     justify-content: center;
 }
 
-.tabs__sidebar {
+.cmd .tabs__sidebar {
     width: 125px;
     flex-shrink: 0;
 }
 
-.tabs__button {
+.cmd .tabs__button {
     display: block;
     padding: 10px;
     background-color: #2c2f33;
@@ -321,34 +321,34 @@ b {
     color: white;
 }
 
-.tabs__button--active {
+.cmd .tabs__button--active {
     border: 2px solid #fbf207;
     background-color: #2c2f33;
     color: #fbf207;
 }
 
-.tabs__content {
+.cmd .tabs__content {
     padding: 15px;
     font-size: 0.8rem;
     display: none;
 }
 
-.tabs__content--active {
+.cmd .tabs__content--active {
     display: inline-block;
     margin-top: -1.4rem;
 }
 
-.tabs__content > :first-child {
+.cmd .tabs__content > :first-child {
     margin-top: 0;
 }
 
 @media only screen and (min-width:465px) and (max-width: 593px) { 
-    .tabs {
+    .cmd .tabs {
         flex-direction: column;
         width: 100%;
     }
 
-    .tabs__sidebar {
+    .cmd .tabs__sidebar {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -356,7 +356,7 @@ b {
         margin: 0 auto;
     }
 
-    .tabs__content{
+    .cmd .tabs__content{
         justify-content: center;
         position: relative;
         margin: 0 auto;
@@ -365,12 +365,12 @@ b {
 }
 
 @media screen and (max-width: 465px) {
-    .tabs {
+    .cmd .tabs {
         width: 100%;
         flex-direction: column;
     }
 
-    .tabs__sidebar {
+    .cmd .tabs__sidebar {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -378,20 +378,20 @@ b {
         margin: 0 auto;
     }
     
-    .tabs__content{
+    .cmd .tabs__content{
         justify-content: center;
         margin-left: -3rem;
         margin-top: 3rem;
     }
 }
 
-footer::after {
+.cmd footer::after {
     content: "";
     display: table;
     clear: both;
 }
 
-footer {
+.cmd footer {
     background-color: #2c2f33;
     font-size: 15px;
     padding: 2rem;
@@ -399,13 +399,13 @@ footer {
     margin-top: 4rem;
 }
 
-.footer-links {
+.cmd .footer-links {
     font-size: 18px;
     color: #fbf207;
     margin-bottom: 1rem;
 }
 
-.left-part, .right-part {
+.cmd .left-part, .cmd .right-part {
     float: left;
     width: 50%;
     padding: 10px;
@@ -413,38 +413,46 @@ footer {
     margin-bottom: 2rem;
 }
 
-.right-part {
+.cmd .right-part {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.left-part img {
+.cmd .left-part img {
     width: 40%;
     margin-bottom: 1rem;
 }
 
-.left-part p {
+.cmd .left-part p {
     margin-bottom: 1rem;
 }
 
-.right-part a {
+.cmd .right-part a {
     text-decoration: underline #fbf207;
     color: white;
     margin-top: 1.75rem;
 }
 
-h2 {
+.cmd h2 {
     font-size: 20px;
     text-align: center;
 }
 
-.credit-midouwebdev {
+.cmd .credit-midouwebdev {
     text-align: center;
 }
 
-.credit-midouwebdev a {
+.cmd .credit-midouwebdev a {
     text-decoration: none;
     color: #fbf207;
+}
+
+.cmd .body {
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: white !important;
 }
