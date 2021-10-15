@@ -28,6 +28,7 @@ function BotCommandsPage() {
                                     <th>Description</th>
                                 </tr>
                             </thead>
+                            <tbody>
                             <tr>
                                 <td className="command">!ban &#60;@&#62;
                                 </td>
@@ -56,6 +57,7 @@ function BotCommandsPage() {
                                 <td className="command">!wipe</td>
                                 <td>Clear with options</td>
                             </tr>
+                            </tbody>
                         </table>
                     </div>
                     <div className="tabs__content" data-tab="2">
@@ -66,6 +68,7 @@ function BotCommandsPage() {
                                     <th>Description</th>
                                 </tr>
                             </thead>
+                            <tbody>
                             <tr>
                                 <td className="command">!setup</td>
                                 <td>Configures the bot in the server</td>
@@ -102,6 +105,7 @@ function BotCommandsPage() {
                                 <td className="command">!requiredrole</td>
                                 <td>Specifies what role each command requires</td>
                             </tr>
+                            </tbody>
                         </table>
                     </div>
                     <div className="tabs__content" data-tab="3">
@@ -112,6 +116,7 @@ function BotCommandsPage() {
                                     <th>Description</th>
                                 </tr>
                             </thead>
+                            <tbody>
                             <tr>
                                 <td className="command">!ping</td>
                                 <td>Returns the Bot Ping</td>
@@ -152,6 +157,7 @@ function BotCommandsPage() {
                                 <td className="command">!avatar</td>
                                 <td>Gets user avatar</td>
                             </tr>
+                            </tbody>
                         </table>
                     </div>
                     <div className="tabs__content" data-tab="4">
@@ -162,6 +168,7 @@ function BotCommandsPage() {
                                     <th>Description</th>
                                 </tr>
                             </thead>
+                            <tbody>
                             <tr>
                                 <td className="command">!play</td>
                                 <td>Play the given song</td>
@@ -174,6 +181,7 @@ function BotCommandsPage() {
                                 <td className="command">!stop</td>
                                 <td>Stop the playing song</td>
                             </tr>
+                            </tbody>
                         </table>
                     </div>
                     <div className="tabs__content" data-tab="5">
@@ -184,6 +192,7 @@ function BotCommandsPage() {
                                     <th>Description</th>
                                 </tr>
                             </thead>
+                            <tbody>
                             <tr>
                                 <td className="command">!cat</td>
                                 <td>Sends a random cat picture</td>
@@ -238,6 +247,7 @@ function BotCommandsPage() {
                                 <td className="command">!urban</td>
                                 <td>Gets an urban dictionary definition</td>
                             </tr>
+                            </tbody>
                         </table>
                     </div>
                 </div>
