@@ -5,7 +5,9 @@ function Footer() {
     return (
         <footer>
             <div className="left-part">
-                <img src={HeptagramLogo} alt="Heptagram Logo" className="logo-footer" />
+                <a href="/home">
+                    <img src={HeptagramLogo} alt="Heptagram Logo" className="logo-footer" />
+                </a>
                 <p className="small-description">The All-in-one Discord Bot for your Server.</p>
                 <a className="github-link" href="https://github.com/Heptagram-Bot">
                     <i className="fab fa-github fa-2x" style={{color: 'white',  marginLeft:'1rem'}}></i>
@@ -18,7 +20,7 @@ function Footer() {
                 <p className="footer-links">
                     Links
                 </p>
-                <a href="https://heptagram.xyz">Home</a>
+                <a href="/home">Home</a>
                 <a href="/bot-commands">Bot Commands</a>
                 <a href="/contributors">Contributors</a>
                 <a href="/privacy-policy">Privacy Policy</a>
