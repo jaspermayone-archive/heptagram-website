@@ -1,10 +1,10 @@
 import React from 'react'
 
-import HeaderDevs from '../components/HeaderDevs';
-import Footer from '../components/Footer';
+import HeaderDevs from '../Components/HeaderDevs';
+import Footer from '../Components/Footer';
 
 
-import '../styles/style-contributors.css';
+import '../Styles/style-contributors.css';
 
 function HomePage() {
     return (

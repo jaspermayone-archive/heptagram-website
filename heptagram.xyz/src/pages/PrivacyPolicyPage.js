@@ -1,8 +1,8 @@
 import React from 'react'
-import FooterLegals from '../components/Footer-Legals';
-import HeaderPrivacy from '../components/Header-Privacy';
+import FooterLegals from '../Components/Footer-Legals';
+import HeaderPrivacy from '../Components/Header-Privacy';
 
-import '../styles/style-legals.css';
+import '../Styles/style-legals.css';
 
 function PrivacyPolicyPage() {
     return (

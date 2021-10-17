@@ -12,19 +12,19 @@ html{
     background-color: #2c2f33;
 }
 
-.homePage ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 7px;
 }
   
-.homePage ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #2C2F33; 
 }
    
-.homePage ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #738ADB;
 }
   
-.homePage ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #F9F871;
 }
 

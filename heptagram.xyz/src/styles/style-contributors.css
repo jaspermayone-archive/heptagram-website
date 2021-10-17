@@ -4,19 +4,19 @@
     font-family: 'Lexend Deca', sans-serif;
 }
 
-.devs ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 7px;
 }
   
-.devs ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #2C2F33; 
 }
    
-.devs ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #738ADB;
 }
   
-.devs ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #F9F871;
 }
 

@@ -2,19 +2,19 @@
     background: #2C2F33;
 }
 
-.legals ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 7px;
 }
-  
-.legals ::-webkit-scrollbar-track {
+
+::-webkit-scrollbar-track {
     background: #2C2F33; 
 }
    
-.legals ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #738ADB;
 }
   
-.legals ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #F9F871;
 }
 
