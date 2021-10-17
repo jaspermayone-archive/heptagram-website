@@ -51,7 +51,7 @@
 }
 
 .devs .logo {
-    width: 23%;
+    width: 90%;
 }
 
 .devs footer::after {
@@ -186,8 +186,13 @@
     .devs .header {
         flex-direction: column;
     }
+
     .devs .logo{
         width: 85%;
+    }
+
+    .devs .left-part img {
+        width: 90% !important;
     }
 
     .devs h1{

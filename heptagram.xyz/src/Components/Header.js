@@ -6,7 +6,9 @@ function Header() {
     return (
         <header className="header">
         <nav className="navbar">
-            <img src={HeptagramLogo} alt="Heptagram Logo" className="logo" />
+            <a href="/home">
+                <img src={HeptagramLogo} alt="Heptagram Logo" className="logo" />
+            </a>
             <ul className="nav-menu">
                 <li className="nav-item second">
                     <a href="https://heptagram.xyz" className="nav-link home active">Home</a>

@@ -51,7 +51,7 @@ html{
 
 .homePage .logo {
     margin-left: 1rem;
-    width: 20%;
+    width: 75% !important;
     cursor: pointer;
 }
 
@@ -183,7 +183,11 @@ html{
     }
 
     .homePage .logo {
-        width: 50%;
+        width: 60% !important;
+    }
+
+    .homePage .left-part img {
+        width: 90% !important;
     }
 
     /* .login-with-discord {
