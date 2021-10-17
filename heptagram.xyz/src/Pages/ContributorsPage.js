@@ -38,10 +38,10 @@ function HomePage() {
                     </div>
                     <div className="developers">
                         <div className="developer">
-                            <img className="avatar" src="https://github.com/thinkverse.png" alt="thinkverse's avatar"/>
-                            <p className="name">Kim Hallberg (thinkverse)</p>
-                            <p className="position">Bot Developer</p>
-                            <a href="https://github.com/thinkverse"><i className="fab fa-github" style={{color: '#2c2f33', transform: 'scale(1.5)'}}></i></a>
+                            <img className="avatar" src="https://github.com/anubhav06.png" alt="anubhav's avatar"/>
+                            <p className="name">Anubhav Gupta</p>
+                            <p className="position">Web Developer</p>
+                            <a href="https://github.com/anubhav06"><i className="fab fa-github" style={{color: '#2c2f33', transform: 'scale(1.5)'}}></i></a>
                         </div>
                         <div className="developer">
                             <img className="avatar" src="https://github.com/akzain.png" alt="zaink's avatar"/>
