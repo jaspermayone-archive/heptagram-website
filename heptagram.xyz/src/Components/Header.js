@@ -11,7 +11,7 @@ function Header() {
             </a>
             <ul className="nav-menu">
                 <li className="nav-item second">
-                    <a href="https://heptagram.xyz" className="nav-link home active">Home</a>
+                    <a href="/" className="nav-link home active">Home</a>
                 </li>
                 <li className="nav-item">
                     <a href="https://discord.gg/HSupF99kpq" className="nav-link server">Support Server</a>
