@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer>
             <div className="left-part">
-                <a href="/home">
+                <a href="/">
                     <img src={HeptagramLogo} alt="Heptagram Logo" className="logo-footer" />
                 </a>
                 <p className="small-description">The All-in-one Discord Bot for your Server.</p>
@@ -20,7 +20,7 @@ function Footer() {
                 <p className="footer-links">
                     Links
                 </p>
-                <a href="/home">Home</a>
+                <a href="/">Home</a>
                 <a href="/bot-commands">Bot Commands</a>
                 <a href="/contributors">Contributors</a>
                 <a href="/privacy-policy">Privacy Policy</a>
