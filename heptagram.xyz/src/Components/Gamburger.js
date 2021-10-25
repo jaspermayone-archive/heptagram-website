@@ -24,7 +24,7 @@ const StyledMenu = styled.nav`
   background: #2c2f33;
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(-100%)")};
   height: 100vh;
-  text-align: left;
+  text-align: center;
   padding: 2rem;
   position: absolute;
   top: 0;
@@ -88,33 +88,44 @@ const Menu = ({ open }) => {
 };
 
 const StyledBurger = styled.button`
+  position: relative;
+  
+  top: 5%;
+  
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 3rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   background: transparent;
   border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+  &:focus {
+    outline: none;
+  }
 
   div {
-    width: 2.5rem;
-    height: 0.3rem;
-    background: ${({ open }) => (open ? "white" : "white")};
+    width: 2rem;
+    height: 0.25rem;
+    background: ${({ open }) => open ? 'White' : 'white'};
+    border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
 
     :first-child {
-      transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0)")};
+      transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
     }
 
     :nth-child(2) {
-      opacity: ${({ open }) => (open ? "0" : "1")};
-      transform: ${({ open }) => (open ? "translateX(20px)" : "translateX(0)")};
+      opacity: ${({ open }) => open ? '0' : '1'};
+      transform: ${({ open }) => open ? 'translateX(20px)' : 'translateX(0)'};
     }
 
     :nth-child(3) {
-      transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
+      transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
     }
   }
 `;
