@@ -26,9 +26,7 @@ function Header() {
             </ul>
             <div className="hamburger" id="app">
             <Gamburger />
-        
             </div>
-           
         </nav>
         </header>
     )
