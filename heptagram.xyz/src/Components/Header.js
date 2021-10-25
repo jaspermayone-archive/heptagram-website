@@ -1,6 +1,7 @@
 import React from 'react'
 
 import HeptagramLogo from '../Assets/full-heptagram-logo.png';
+import Gamburger from './Gamburger'
 
 function Header() {
     return (
@@ -23,14 +24,15 @@ function Header() {
                     <a href="https://api.heptagram.xyz" className="nav-link api">API</a>
                 </li>
             </ul>
-            <div className="hamburger">
-                <span className="bar"></span>
-                <span className="bar"></span>
-                <span className="bar"></span>
+            <div className="hamburger" id="app">
+            <Gamburger />
+        
             </div>
+           
         </nav>
         </header>
     )
 }
+
 
 export default Header
