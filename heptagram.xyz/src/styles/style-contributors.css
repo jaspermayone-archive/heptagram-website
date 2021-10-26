@@ -211,3 +211,14 @@
     color: #fbf207;
     background-color: #2c2f33 !important;
 }
+
+.devs .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.devs .link {
+    text-align: center;
+}

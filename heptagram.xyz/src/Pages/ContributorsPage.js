@@ -22,13 +22,29 @@ function HomePage() {
                         <img className="avatar" src="https://github.com/MidouWebDev.png" alt="midou's avatar"/>
                         <p className="name">MidouWebDev</p>
                         <p className="position">Website Maintainer <br/> & <br/> Head Web Developer</p>
-                        <a href="https://github.com/MidouWebDev"><i className="fab fa-github" style={{color: '#2c2f33', transform: 'scale(1.5)'}}></i></a>
+                        <div className="links">
+                            <div className="link">
+                                <a href="https://github.com/MidouWebDev"><i className="fab fa-github" style={{color: '#2c2f33', transform: 'scale(1.5)'}}></i></a>
+                            </div>
+                            <div className="link">
+                                <a href="https://dev.to/midouwebdev"><i className="fab fa-dev" style={{color: '#2c2f33', transform: 'scale(1.8)'}}></i></a>
+                            </div>
+                        </div>
+                        
                     </div>
                     <div className="developer">
                         <img className="avatar" src="https://github.com/Panquesito7.png" alt="panquesito's avatar"/>
                         <p className="name">David Leal</p>
                         <p className="position">Bot Maintainer <br/> & <br/> Web Developer</p>
-                        <a href="https://github.com/Panquesito7"><i className="fab fa-github" style={{color: '#2c2f33', transform: 'scale(1.5)'}}></i></a>
+                        <div className="links">
+                            <div className="link">
+                                <a href="https://github.com/Panquesito7"><i className="fab fa-github" style={{color: '#2c2f33', transform: 'scale(1.5)'}}></i></a>
+                            </div>
+                            <div className="link">
+                                <a href="https://twitter.com/David_Leal_7"><i className="fab fa-twitter" style={{color: '#2c2f33', transform: 'scale(1.5)'}}></i></a>
+                            </div>
+                        </div>
+                       
                     </div>
                     <div className="head-developer second">
                         <img className="avatar" src="https://github.com/Vyvy-vi.png" alt="Vyvy-vi's avatar"/>
@@ -41,7 +57,16 @@ function HomePage() {
                             <img className="avatar" src="https://github.com/anubhav06.png" alt="anubhav's avatar"/>
                             <p className="name">Anubhav Gupta</p>
                             <p className="position">Web Developer</p>
-                            <a href="https://github.com/anubhav06"><i className="fab fa-github" style={{color: '#2c2f33', transform: 'scale(1.5)'}}></i></a>
+                            <div className="links">
+                                <div className="link">
+                                    <a href="https://github.com/anubhav06"><i className="fab fa-github" style={{color: '#2c2f33', transform: 'scale(1.5)'}}></i></a>
+                                </div>
+                                <div className="link">
+                                    <a href="https://twitter.com/anubhav_gupta06"><i className="fab fa-twitter" style={{color: '#2c2f33', transform: 'scale(1.5)'}}></i></a>
+                                </div>
+                               
+                            </div>
+                            
                         </div>
                         <div className="developer">
                             <img className="avatar" src="https://github.com/akzain.png" alt="zaink's avatar"/>
