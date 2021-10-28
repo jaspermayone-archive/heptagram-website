@@ -4,7 +4,6 @@ import Footer from "../Components/Footer";
 import "../Styles/style-commands.css";
 
 function BotCommandsPage() {
- 
   let button1 = (
     <table>
       <thead>
@@ -42,6 +41,12 @@ function BotCommandsPage() {
     </table>
   );
   let [count, setCount] = useState([button1]);
+  let [cl1, setCl1] = useState("tabs__button tabs__button--active");
+  let [cl2, setCl2] = useState("tabs__button");
+  let [cl3, setCl3] = useState("tabs__button");
+  let [cl4, setCl4] = useState("tabs__button");
+  let [cl5, setCl5] = useState("tabs__button");
+
   const button2 = (
     <table>
       <thead>
@@ -242,41 +247,76 @@ function BotCommandsPage() {
           <div className="tabs">
             <div className="tabs__sidebar">
               <button
-                onClick={() => setCount((count = button1))}
+                onClick={() => {
+                  setCl2((cl2 = "tabs__button"));
+                  setCl3((cl3 = "tabs__button"));
+                  setCl4((cl4 = "tabs__button"));
+                  setCl5((cl5 = "tabs__button"));
+                  setCount((count = button1));
+                  setCl1((cl1 = "tabs__button tabs__button--active"));
+                }}
                 type="submit"
-                className="tabs__button tabs__button--active"
+                className={cl1}
               >
                 Moderation
               </button>
 
               <button
                 type="submit"
-                className="tabs__button"
-                onClick={() => setCount((count = button2))}
+                className={cl2}
+                onClick={() => {
+                  setCl1((cl1 = "tabs__button"));
+                  setCl3((cl3 = "tabs__button"));
+                  setCl4((cl4 = "tabs__button"));
+                  setCl5((cl5 = "tabs__button"));
+                  setCount((count = button2));
+                  setCl2((cl2 = "tabs__button tabs__button--active"));
+                }}
               >
                 Bot Settings & Automation
               </button>
 
               <button
                 type="submit"
-                className="tabs__button"
-                onClick={() => setCount((count = button3))}
+                className={cl3}
+                onClick={() => {
+                  setCl2((cl2 = "tabs__button"));
+                  setCl1((cl1 = "tabs__button"));
+                  setCl4((cl4 = "tabs__button"));
+                  setCl5((cl5 = "tabs__button"));
+                  setCount((count = button3));
+                  setCl3((cl3 = "tabs__button tabs__button--active"));
+                }}
               >
                 Informational
               </button>
 
               <button
                 type="submit"
-                className="tabs__button"
-                onClick={() => setCount((count = button4))}
+                className={cl4}
+                onClick={() => {
+                  setCl2((cl2 = "tabs__button"));
+                  setCl3((cl3 = "tabs__button"));
+                  setCl1((cl1 = "tabs__button"));
+                  setCl5((cl5 = "tabs__button"));
+                  setCount((count = button4));
+                  setCl4((cl4 = "tabs__button tabs__button--active"));
+                }}
               >
                 Music
               </button>
 
               <button
                 type="submit"
-                className="tabs__button"
-                onClick={() => setCount((count = button5))}
+                className={cl5}
+                onClick={() => {
+                  setCl2((cl2 = "tabs__button"));
+                  setCl3((cl3 = "tabs__button"));
+                  setCl1((cl1 = "tabs__button"));
+                  setCl4((cl4 = "tabs__button"));
+                  setCount((count = button5));
+                  setCl5((cl5 = "tabs__button tabs__button--active"));
+                }}
               >
                 Fun
               </button>
