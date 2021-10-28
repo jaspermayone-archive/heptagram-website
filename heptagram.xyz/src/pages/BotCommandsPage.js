@@ -4,7 +4,7 @@ import Footer from "../Components/Footer";
 import "../Styles/style-commands.css";
 
 function BotCommandsPage() {
-  let [count, setCount] = useState([]);
+ 
   let button1 = (
     <table>
       <thead>
@@ -41,6 +41,7 @@ function BotCommandsPage() {
       </tbody>
     </table>
   );
+  let [count, setCount] = useState([button1]);
   const button2 = (
     <table>
       <thead>
