@@ -411,7 +411,8 @@
     margin-bottom: 1rem;
 }
 
-.cmd .left-part, .cmd .right-part {
+.cmd .left-part,
+.cmd .right-part {
     float: left;
     width: 50%;
     padding: 10px;
