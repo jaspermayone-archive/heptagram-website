@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, BrowserRouter as Router, Redirect } from 'react-router-dom';
+import { ErrorBoundary } from 'react-error-boundary';
 
 import HomePage from './Pages/HomePage';
 import BotCommandsPage from './Pages/BotCommandsPage';
@@ -11,6 +12,7 @@ import Error500Page from './Pages/Error500Page';
 
 function App() {
 	return (
+		<ErrorBoundary FallbackComponent={Error500Page}>
 		<Router>
 			<Route exact path='/'>
 				<Redirect to='/home' />
@@ -21,8 +23,8 @@ function App() {
 			<Route path='/privacy-policy' component={PrivacyPolicyPage} />
 			<Route path='/terms-of-service' component={TermsOfServicesPage} />
 			<Route path='/404' component={Error404Page}/>
-			<Route path='/500' component={Error500Page}/>
 		</Router>
+		</ErrorBoundary>
 	);
 }
 
