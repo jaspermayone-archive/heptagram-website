@@ -233,7 +233,8 @@ html{
 
 /* .login-with-discord soon */
 
-.homePage .invite-the-bot, .homePage .invite-the-bot-mobile {
+.homePage .invite-the-bot,
+.homePage .invite-the-bot-mobile {
     margin-right: 1rem;
     padding: 1px 5px;
     background-color: #7289da;
@@ -257,20 +258,25 @@ html{
     color: white;
 }
 
-.homePage .description:after, footer::after {
+.homePage .description:after,
+footer::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.homePage .left, .homePage .right, .homePage .left-part, .homePage .right-part {
+.homePage .left, 
+.homePage .right, 
+.homePage .left-part, 
+.homePage .right-part {
     float: left;
     width: 50%;
     padding: 10px;
     text-align: center;
 }
 
-.homePage .left-part, .homePage .right-part {
+.homePage .left-part,
+.homePage .right-part {
     margin-bottom: 2rem;
 }
 
@@ -360,7 +366,6 @@ html{
         width: 50%;
     }
 }
-
 
 .homePage .devs {
     text-decoration: underline #fbf207;
@@ -486,7 +491,8 @@ html{
     background-color: white;
 }
 
-.homePage .left h1, .homePage .features h2 {
+.homePage .left h1,
+.homePage .features h2 {
     color: white;
 }
 
@@ -498,11 +504,12 @@ header {
     display: block;
 }
 
-
-/* To render the icons and prevent a [] from coming */
 .fab {
-    font-family: "Font Awesome 5 Brands" !important;
+    font-family: "Font Awesome 5 Brands", sans-serif !important;
 }
-.fa, .far, .fas {
-    font-family: "Font Awesome 5 Free" !important;
+
+.fa,
+.far, 
+.fas {
+    font-family: "Font Awesome 5 Free", sans-serif !important;
 }

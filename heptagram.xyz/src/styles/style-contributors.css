@@ -114,7 +114,8 @@
     background-color: #2c2f33 !important;
 }
 
-.devs .discord-link, .devs .github-link {
+.devs .discord-link,
+.devs .github-link {
     background-color: #2c2f33 !important;
 }
 
@@ -124,7 +125,8 @@
     text-align: center;
 }
 
-.devs .head-developer, .devs .developer {
+.devs .head-developer,
+.devs .developer {
     text-align: center;
     margin-bottom: 4rem;
 }

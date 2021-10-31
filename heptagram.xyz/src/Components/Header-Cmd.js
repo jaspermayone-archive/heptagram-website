@@ -12,13 +12,13 @@ function Header() {
             </a>
             <ul className="nav-menu">
                 <li className="nav-item second">
-                    <a href="/" className="nav-link home active">Home</a>
+                    <a href="/" className="nav-link home">Home</a>
                 </li>
                 <li className="nav-item">
                     <a href="https://discord.gg/HSupF99kpq" className="nav-link server">Support Server</a>
                 </li>
                 <li className="nav-item">
-                    <a href="/bot-commands" className="nav-link commands">Commands</a>
+                    <a href="/bot-commands" className="nav-link commands active">Commands</a>
                 </li>
                 <li className="nav-item">
                     <a href="https://api.heptagram.xyz" className="nav-link api">API</a>

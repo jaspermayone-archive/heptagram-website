@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "../Components/Header";
+import HeaderCmd from "../Components/Header-Cmd";
 import Footer from "../Components/Footer";
 import "../Styles/style-commands.css";
 
@@ -239,7 +239,7 @@ function BotCommandsPage() {
 
   return (
     <div className="cmd">
-      <Header />
+      <HeaderCmd />
       <div className="body">
         <main>
           <h1>Heptagram Commands</h1>
