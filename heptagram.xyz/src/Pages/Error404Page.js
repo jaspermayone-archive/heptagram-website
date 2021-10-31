@@ -10,7 +10,7 @@ function Error404Page() {
             <img src={HeptagramLogo} className="logo" alt="heptagram-logo"/>
             <h1>404</h1>
             <h2 className="sub-title">Page Not Found !</h2>
-            <a class="go-back-button" href="/">← Go Back</a>
+            <a class="action-button" href="/">← Go Back</a>
         </div>
     )
 }
