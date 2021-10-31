@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import HeptagramLogo from "../Assets/full-heptagram-logo.png";
 
-const Gamburger = () => {
+const Hamburger = () => {
   const [open, setOpen] = React.useState(false);
   const node = React.useRef();
   return (
@@ -15,7 +15,7 @@ const Gamburger = () => {
   );
 };
 
-export default Gamburger;
+export default Hamburger;
 
 const StyledMenu = styled.nav`
   display: flex;

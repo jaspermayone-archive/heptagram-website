@@ -1,7 +1,7 @@
 import React from 'react'
 
 import HeptagramLogo from '../Assets/full-heptagram-logo.png';
-import Gamburger from './Gamburger'
+import Hamburger from './Hamburger'
 
 function Header() {
     return (
@@ -25,7 +25,7 @@ function Header() {
                 </li>
             </ul>
             <div className="hamburger" id="app">
-            <Gamburger />
+            <Hamburger />
             </div>
         </nav>
         </header>
