@@ -7,6 +7,7 @@ import ContributorsPage from './Pages/ContributorsPage';
 import PrivacyPolicyPage from './Pages/PrivacyPolicyPage';
 import TermsOfServicesPage from './Pages/TermsOfServicesPage';
 import Error404Page from './Pages/Error404Page';
+import Error500Page from './Pages/Error500Page';
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 			<Route path='/privacy-policy' component={PrivacyPolicyPage} />
 			<Route path='/terms-of-service' component={TermsOfServicesPage} />
 			<Route path='/404' component={Error404Page}/>
+			<Route path='/500' component={Error500Page}/>
 		</Router>
 	);
 }
