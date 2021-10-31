@@ -1,0 +1,50 @@
+.container-error *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-error h1 {
+    margin-top: 20rem;
+    margin-bottom: 2rem;
+    font-size: 70px;
+    color: white;
+}
+
+.container-error .sub-title {
+    font-size: 40px;
+    color: #fbf207;
+    margin-bottom: 2rem;
+}
+
+.container-error .go-back-button {
+    margin-top: 8rem;
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: underline #fbf207;
+    color: white;
+    background: #2c2f33;
+}
+
+.container-error .logo {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 950px) {
+    .container-error .logo {
+        width: 70%;
+    } 
+}
+
+@media screen and (max-width: 360px) {
+    .container-error .sub-title {
+        font-size: 25px;
+    }
+    .container-error .go-back-button {
+        font-size: 18px;
+    }
+}

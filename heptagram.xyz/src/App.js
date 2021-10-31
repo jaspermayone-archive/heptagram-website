@@ -6,6 +6,7 @@ import BotCommandsPage from './Pages/BotCommandsPage';
 import ContributorsPage from './Pages/ContributorsPage';
 import PrivacyPolicyPage from './Pages/PrivacyPolicyPage';
 import TermsOfServicesPage from './Pages/TermsOfServicesPage';
+import Error404Page from './Pages/Error404Page';
 
 function App() {
 	return (
@@ -13,11 +14,12 @@ function App() {
 			<Route exact path='/'>
 				<Redirect to='/home' />
 			</Route>
-			<Route path='/home' component={HomePage} exact />
+			<Route exact path='/home' component={HomePage}/>
 			<Route path='/contributors' component={ContributorsPage} />
 			<Route path='/bot-commands' component={BotCommandsPage} />
 			<Route path='/privacy-policy' component={PrivacyPolicyPage} />
 			<Route path='/terms-of-service' component={TermsOfServicesPage} />
+			<Route path='/404' component={Error404Page}/>
 		</Router>
 	);
 }
