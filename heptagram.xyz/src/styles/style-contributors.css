@@ -1,0 +1,226 @@
+.devs * {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #2C2F33; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #738ADB;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #F9F871;
+}
+
+.devs .body {
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: white !important;
+}
+
+.devs .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2C2F33 !important;
+}
+
+.devs h1 {
+    color: white !important;
+    background-color: #2c2f33 !important;
+    margin-left: 0.75rem;
+}
+
+.devs main {
+    margin-top: 12rem;
+}
+
+.devs a {
+    text-decoration: underline #2C2F33 !important;
+    color: black;
+}
+
+.devs .logo {
+    width: 90%;
+}
+
+.devs footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.devs footer {
+    background-color: #2c2f33 !important;
+    font-size: 15px;
+    padding: 1rem;
+    color: white;
+}
+
+.devs .footer-links {
+    font-size: 18px;
+    background-color: #2c2f33 !important;
+    color: #fbf207;
+    margin-bottom: 1rem;
+}
+
+.devs .left-part {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: #2c2f33 !important;
+    margin-top: 2rem;
+}
+
+.devs .right-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c2f33 !important;
+    margin-top: 2rem;
+}
+
+.devs .left-part img {
+    width: 40%;
+    margin-bottom: 1rem;
+    background-color: #2c2f33 !important;
+}
+
+.devs .left-part p {
+    margin-bottom: 1rem;
+    background-color: #2c2f33 !important;
+}
+
+.devs .left-part a {
+    background-color: #2c2f33 !important;
+}
+
+.devs .right-part a {
+    text-decoration: underline #fbf207 !important;
+    color: white;
+    margin-top: 2rem;
+    background-color: #2c2f33 !important;
+}
+
+.devs .discord-link,
+.devs .github-link {
+    background-color: #2c2f33 !important;
+}
+
+.devs .owner {
+    margin-top: -7rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.devs .head-developer,
+.devs .developer {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.devs .avatar {
+    border-radius: 50%;
+    height: 16rem;
+    width: 16rem;
+    background-color: #2C2F33 !important;
+    margin-bottom: 1rem;
+}
+
+.devs .name {
+    text-decoration: underline #2C2F33;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.devs .position {
+    color: darkgray;
+    margin-top: -0.5rem;
+    margin-bottom: 0.25rem;
+    font-size: 1.6rem;
+}
+
+.devs .developers {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+
+.devs .others {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.devs .other-contributors {
+    background-color: #2C2F33 !important;
+    color: white;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 4rem;
+}
+
+.devs .other-contributors:hover {
+    color: #fbf207;
+    text-decoration: underline white;
+}
+
+@media screen and (max-width:800px) {
+    .devs .header {
+        flex-direction: column;
+    }
+
+    .devs .logo{
+        width: 85%;
+    }
+
+    .devs .left-part img {
+        width: 90% !important;
+    }
+
+    .devs h1{
+        margin: 1.5rem 0rem;
+    }
+}
+
+.devs .credit-midouwebdev {
+    margin-top: 2.5rem;
+    text-align: center;
+    background-color: #2c2f33 !important;
+}
+
+.devs .credit-midouwebdev a {
+    text-decoration: none;
+    color: #fbf207;
+    background-color: #2c2f33 !important;
+}
+
+.devs .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.devs .link {
+    text-align: center;
+}

@@ -1,5 +1,5 @@
 <div align="center">
-<img src="img/heptagram-logo.png" width="180px">
+<img src="heptagram.xyz/public/full-heptagram-logo.png" width="180px">
 <h1>Heptagram Bot Website</h1>
 </div>
 
