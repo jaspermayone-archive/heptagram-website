@@ -22,7 +22,7 @@ function App() {
 			<Route path='/bot-commands' component={BotCommandsPage} />
 			<Route path='/privacy-policy' component={PrivacyPolicyPage} />
 			<Route path='/terms-of-service' component={TermsOfServicesPage} />
-			<Route path='/404' component={Error404Page}/>
+			<Route path='*' exact={true} component={Error404Page}/>
 		</Router>
 		</ErrorBoundary>
 	);
