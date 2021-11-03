@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, BrowserRouter as Router, Redirect } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Redirect, Switch } from 'react-router-dom';
 import { ErrorBoundary } from 'react-error-boundary';
 
 import HomePage from './Pages/HomePage';
@@ -14,15 +14,17 @@ function App() {
 	return (
 		<ErrorBoundary FallbackComponent={Error500Page}>
 		<Router>
-			<Route exact path='/'>
-				<Redirect to='/home' />
-			</Route>
-			<Route exact path='/home' component={HomePage}/>
-			<Route path='/contributors' component={ContributorsPage} />
-			<Route path='/bot-commands' component={BotCommandsPage} />
-			<Route path='/privacy-policy' component={PrivacyPolicyPage} />
-			<Route path='/terms-of-service' component={TermsOfServicesPage} />
-			<Route path='*' exact={true} component={Error404Page}/>
+			<Switch>
+				<Route exact path='/'>
+					<Redirect to='/home' />
+				</Route>
+				<Route exact path='/home' component={HomePage}/>
+				<Route path='/contributors' component={ContributorsPage} />
+				<Route path='/bot-commands' component={BotCommandsPage} />
+				<Route path='/privacy-policy' component={PrivacyPolicyPage} />
+				<Route path='/terms-of-service' component={TermsOfServicesPage} />
+				<Route path='*' exact={true} component={Error404Page}/>
+			</Switch>
 		</Router>
 		</ErrorBoundary>
 	);
