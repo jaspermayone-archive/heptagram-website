@@ -1,5 +1,5 @@
 .legals * {
-    background: #2C2F33;
+    background: #2c2f33;
 }
 
 ::-webkit-scrollbar {
@@ -7,27 +7,27 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #2C2F33; 
+    background: #2c2f33;
 }
-   
+
 ::-webkit-scrollbar-thumb {
-    background: #738ADB;
+    background: #738adb;
 }
-  
+
 ::-webkit-scrollbar-thumb:hover {
-    background: #F9F871;
+    background: #f9f871;
 }
 
 .legals .body {
     font-family: 'Lexend Deca', cursive;
     padding: 0px 30px;
-    background: #2C2F33;
+    background: #2c2f33;
     color: white;
 }
 
 .legals h1,
 .legals h2 {
-    color: #F9F871;
+    color: #f9f871;
     text-align: center;
     margin-top: 5rem;
     text-decoration: none;

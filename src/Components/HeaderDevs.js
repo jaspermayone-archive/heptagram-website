@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import HeptagramLogo from '../Assets/full-heptagram-logo.png'
+import HeptagramLogo from '../Assets/full-heptagram-logo.png';
 
 function HeaderDevs() {
     return (
@@ -8,9 +8,9 @@ function HeaderDevs() {
             <a href="/">
                 <img src={HeptagramLogo} alt="heptagram-logo" className="logo" />
             </a>
-            <h1 style={{fontSize: '3.1rem'}}>Developers</h1>
+            <h1 style={{ fontSize: '3.1rem' }}>Developers</h1>
         </header>
-    )
+    );
 }
 
-export default HeaderDevs
+export default HeaderDevs;

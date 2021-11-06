@@ -1,13 +1,13 @@
-.homePage *{
+.homePage * {
     padding: 0;
     box-sizing: border-box;
-    font-family: "Lexend Deca", sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
 }
-body{
+body {
     margin: 0px;
 }
 
-html{
+html {
     font-size: 62.5%;
     background-color: #2c2f33;
 }
@@ -15,17 +15,17 @@ html{
 ::-webkit-scrollbar {
     width: 7px;
 }
-  
+
 ::-webkit-scrollbar-track {
-    background: #2C2F33; 
+    background: #2c2f33;
 }
-   
+
 ::-webkit-scrollbar-thumb {
-    background: #738ADB;
+    background: #738adb;
 }
-  
+
 ::-webkit-scrollbar-thumb:hover {
-    background: #F9F871;
+    background: #f9f871;
 }
 
 /*.homePage html {
@@ -217,7 +217,7 @@ html{
     .homePage .api::before {
         width: 3%;
     }
-    
+
     .homePage .home::before {
         width: 3.3%;
     }
@@ -225,7 +225,7 @@ html{
     .homePage .server::before {
         width: 10%;
     }
-    
+
     .homePage .commands::before {
         width: 8%;
     }
@@ -250,7 +250,7 @@ html{
 }
 
 .homePage .active {
-    color : #fbf207;
+    color: #fbf207;
 }
 
 .homePage .description {
@@ -260,14 +260,14 @@ html{
 
 .homePage .description:after,
 footer::after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
 }
 
-.homePage .left, 
-.homePage .right, 
-.homePage .left-part, 
+.homePage .left,
+.homePage .right,
+.homePage .left-part,
 .homePage .right-part {
     float: left;
     width: 50%;
@@ -303,11 +303,13 @@ footer::after {
 }
 
 @media screen and (max-width: 950px) {
-    .homePage .left, .homePage .right {
-      width: 100%;
+    .homePage .left,
+    .homePage .right {
+        width: 100%;
     }
-    
-    .homePage .left h1, .homePage .left p {
+
+    .homePage .left h1,
+    .homePage .left p {
         margin-left: 0rem;
     }
 
@@ -473,12 +475,12 @@ footer::after {
     color: #fbf207;
 }
 
-.homePage .discord-link, 
+.homePage .discord-link,
 .homePage .github-link {
     color: white;
 }
 
-.homePage .discord-link:hover, 
+.homePage .discord-link:hover,
 .homePage .github-link:hover {
     color: #fbf207;
 }
@@ -505,11 +507,11 @@ header {
 }
 
 .fab {
-    font-family: "Font Awesome 5 Brands", sans-serif !important;
+    font-family: 'Font Awesome 5 Brands', sans-serif !important;
 }
 
 .fa,
-.far, 
+.far,
 .fas {
-    font-family: "Font Awesome 5 Free", sans-serif !important;
+    font-family: 'Font Awesome 5 Free', sans-serif !important;
 }
