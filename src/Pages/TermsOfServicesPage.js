@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import FooterLegals from '../Components/Footer-Legals';
 import HeaderTOS from '../Components/Header-TOS';
 
@@ -6,42 +6,104 @@ import '../Styles/style-legals.css';
 
 function TermsOfServicesPage() {
     return (
-        <div className="legals">   
+        <div className="legals">
             <div className="body">
-                <HeaderTOS/>
+                <HeaderTOS />
                 <>
-                <h2>1. Terms</h2>
-                <p>By accessing this Website, accessible from https://heptagram.xyz, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.</p>
-                <h2>2. Use License</h2>
-                <p>Permission is granted to temporarily download one copy of the materials on Heptagram-Bot's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
+                    <h2>1. Terms</h2>
+                    <p>
+                        By accessing this Website, accessible from https://heptagram.xyz, you are
+                        agreeing to be bound by these Website Terms and Conditions of Use and agree
+                        that you are responsible for the agreement with any applicable local laws.
+                        If you disagree with any of these terms, you are prohibited from accessing
+                        this site. The materials contained in this Website are protected by
+                        copyright and trade mark law.
+                    </p>
+                    <h2>2. Use License</h2>
+                    <p>
+                        Permission is granted to temporarily download one copy of the materials on
+                        Heptagram-Bot's Website for personal, non-commercial transitory viewing
+                        only. This is the grant of a license, not a transfer of title, and under
+                        this license you may not:
+                    </p>
                     <ul>
                         <li>modify or copy the materials;</li>
-                        <li>use the materials for any commercial purpose or for any public display;</li>
-                        <li>attempt to reverse engineer any software contained on Heptagram-Bot's Website;</li>
-                        <li>remove any copyright or other proprietary notations from the materials; or</li>
-                        <li>transferring the materials to another person or "mirror" the materials on any other server.</li>
+                        <li>
+                            use the materials for any commercial purpose or for any public display;
+                        </li>
+                        <li>
+                            attempt to reverse engineer any software contained on Heptagram-Bot's
+                            Website;
+                        </li>
+                        <li>
+                            remove any copyright or other proprietary notations from the materials;
+                            or
+                        </li>
+                        <li>
+                            transferring the materials to another person or "mirror" the materials
+                            on any other server.
+                        </li>
                     </ul>
-                <p>This will let Heptagram-Bot to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format.</p>
-                <h2>3. Disclaimer</h2>
-                <p>All the materials on Heptagram-Bot’s Website are provided "as is". Heptagram-Bot makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, Heptagram-Bot does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.</p>
-                <h2>4. Limitations</h2>
-                <p>Heptagram-Bot or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on Heptagram-Bot’s Website, even if Heptagram-Bot or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.</p>
-                <h2>5. Revisions and Errata</h2>
-                <p>The materials appearing on Heptagram-Bot’s Website may include technical, typographical, or photographic errors. Heptagram-Bot will not promise that any of the materials in this Website are accurate, complete, or current. Heptagram-Bot may change the materials contained on its Website at any time without notice. Heptagram-Bot does not make any commitment to update the materials.</p>
-                <h2>6. Links</h2>
-                <p>Heptagram-Bot has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by Heptagram-Bot of the site. The use of any linked website is at the user’s own risk.</p>
-                <h2>7. Site Terms of Use Modifications</h2>
-                <p>Heptagram-Bot may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.</p>
-                <h2>8. Your Privacy</h2>
-                <p>Please read our Privacy Policy.</p>
-                <h2>9. Governing Law</h2>
-                <p class="last">Any claim related to Heptagram-Bot's Website shall be governed by the laws of us without regards to its conflict of law provisions.</p>
-                <br />
+                    <p>
+                        This will let Heptagram-Bot to terminate upon violations of any of these
+                        restrictions. Upon termination, your viewing right will also be terminated
+                        and you should destroy any downloaded materials in your possession whether
+                        it is printed or electronic format.
+                    </p>
+                    <h2>3. Disclaimer</h2>
+                    <p>
+                        All the materials on Heptagram-Bot’s Website are provided "as is".
+                        Heptagram-Bot makes no warranties, may it be expressed or implied, therefore
+                        negates all other warranties. Furthermore, Heptagram-Bot does not make any
+                        representations concerning the accuracy or reliability of the use of the
+                        materials on its Website or otherwise relating to such materials or any
+                        sites linked to this Website.
+                    </p>
+                    <h2>4. Limitations</h2>
+                    <p>
+                        Heptagram-Bot or its suppliers will not be hold accountable for any damages
+                        that will arise with the use or inability to use the materials on
+                        Heptagram-Bot’s Website, even if Heptagram-Bot or an authorize
+                        representative of this Website has been notified, orally or written, of the
+                        possibility of such damage. Some jurisdiction does not allow limitations on
+                        implied warranties or limitations of liability for incidental damages, these
+                        limitations may not apply to you.
+                    </p>
+                    <h2>5. Revisions and Errata</h2>
+                    <p>
+                        The materials appearing on Heptagram-Bot’s Website may include technical,
+                        typographical, or photographic errors. Heptagram-Bot will not promise that
+                        any of the materials in this Website are accurate, complete, or current.
+                        Heptagram-Bot may change the materials contained on its Website at any time
+                        without notice. Heptagram-Bot does not make any commitment to update the
+                        materials.
+                    </p>
+                    <h2>6. Links</h2>
+                    <p>
+                        Heptagram-Bot has not reviewed all of the sites linked to its Website and is
+                        not responsible for the contents of any such linked site. The presence of
+                        any link does not imply endorsement by Heptagram-Bot of the site. The use of
+                        any linked website is at the user’s own risk.
+                    </p>
+                    <h2>7. Site Terms of Use Modifications</h2>
+                    <p>
+                        Heptagram-Bot may revise these Terms of Use for its Website at any time
+                        without prior notice. By using this Website, you are agreeing to be bound by
+                        the current version of these Terms and Conditions of Use.
+                    </p>
+                    <h2>8. Your Privacy</h2>
+                    <p>Please read our Privacy Policy.</p>
+                    <h2>9. Governing Law</h2>
+                    <p class="last">
+                        Any claim related to Heptagram-Bot's Website shall be governed by the laws
+                        of us without regards to its conflict of law provisions.
+                    </p>
+                    <br />
                 </>
-                <FooterLegals/>
+                <FooterLegals />
             </div>
         </div>
-    )
+    );
 }
 
-export default TermsOfServicesPage
+export default TermsOfServicesPage;

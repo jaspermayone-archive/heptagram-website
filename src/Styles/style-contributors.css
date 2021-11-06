@@ -7,17 +7,17 @@
 ::-webkit-scrollbar {
     width: 7px;
 }
-  
+
 ::-webkit-scrollbar-track {
-    background: #2C2F33; 
+    background: #2c2f33;
 }
-   
+
 ::-webkit-scrollbar-thumb {
-    background: #738ADB;
+    background: #738adb;
 }
-  
+
 ::-webkit-scrollbar-thumb:hover {
-    background: #F9F871;
+    background: #f9f871;
 }
 
 .devs .body {
@@ -32,7 +32,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #2C2F33 !important;
+    background-color: #2c2f33 !important;
 }
 
 .devs h1 {
@@ -46,7 +46,7 @@
 }
 
 .devs a {
-    text-decoration: underline #2C2F33 !important;
+    text-decoration: underline #2c2f33 !important;
     color: black;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .devs footer::after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
 }
@@ -135,12 +135,12 @@
     border-radius: 50%;
     height: 16rem;
     width: 16rem;
-    background-color: #2C2F33 !important;
+    background-color: #2c2f33 !important;
     margin-bottom: 1rem;
 }
 
 .devs .name {
-    text-decoration: underline #2C2F33;
+    text-decoration: underline #2c2f33;
     margin-bottom: 1rem;
     font-size: 1.6rem;
 }
@@ -168,7 +168,7 @@
 }
 
 .devs .other-contributors {
-    background-color: #2C2F33 !important;
+    background-color: #2c2f33 !important;
     color: white;
     outline: none;
     font-size: 15px;
@@ -184,12 +184,12 @@
     text-decoration: underline white;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
     .devs .header {
         flex-direction: column;
     }
 
-    .devs .logo{
+    .devs .logo {
         width: 85%;
     }
 
@@ -197,7 +197,7 @@
         width: 90% !important;
     }
 
-    .devs h1{
+    .devs h1 {
         margin: 1.5rem 0rem;
     }
 }
@@ -219,7 +219,6 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-
 }
 .devs .link {
     text-align: center;

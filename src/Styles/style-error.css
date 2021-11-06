@@ -1,8 +1,8 @@
-.container-error *{
+.container-error * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Lexend Deca", sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -43,14 +43,15 @@
 @media screen and (max-width: 950px) {
     .container-error .logo {
         width: 70%;
-    } 
+    }
 }
 
 @media screen and (max-width: 360px) {
-    .container-error .sub-title, .container-error .info {
+    .container-error .sub-title,
+    .container-error .info {
         font-size: 20px;
     }
-    
+
     .container-error .action-button {
         font-size: 18px;
     }

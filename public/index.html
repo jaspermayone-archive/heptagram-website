@@ -1,56 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server."
-    />
-    <meta name="keywords"
-        content="Heptagram, Heptagram Bot, Heptagram open source, Heptagram Discord Bot, Bot, Discord Bot, Moderation Discord, Discord Server Bot, Music Bot, Rules Bot, The Discord Bot, All-in-one discord bot, open source discord bot">
-    <meta name="robots" content="index, follow">
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest">
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="application-name" content="Heptagram.xyz">
-    <meta name="theme-color" content="#fff800" />
-    <!-- Windows Icons -->
-    <meta name="msapplication-config" content="%PUBLIC_URL%/browserconfig.xml" />
-    <meta name="msapplication-TileColor" content="#2c2f33">
-    <meta name="msapplication-TileImage" content="%PUBLIC_URL%/mstile-150x150.png">
-    <!-- Apple Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png">
-    <link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg" color="#ffff88">
-    <meta name="apple-mobile-web-app-title" content="Heptagram.xyz">
-    <!-- Favicons -->
-    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="194x194" href="%PUBLIC_URL%/favicon-194x194.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="%PUBLIC_URL%/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png">
-    <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://heptagram.xyz/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Heptagram - The All-in-one Discord Bot">
-    <meta property="og:description" content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server.">
-    <meta property="og:image" content="https://heptagram.xyz/full-heptagram-logo.png">
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="heptagram.xyz">
-    <meta property="twitter:url" content="https://heptagram.xyz/">
-    <meta name="twitter:title" content="Heptagram - The All-in-one Discord Bot">
-    <meta name="twitter:description" content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server.">
-    <meta name="twitter:image" content="https://heptagram.xyz/full-heptagram-logo.png">
-    <!-- Title -->
-    <title>Heptagram - The All-in-one Discord Bot</title>
-    <!-- Import Scripts -->
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/64fdbfc31c.js" crossorigin="anonymous"></script><!-- Sensitive -->
-    <script defer data-domain="heptagram.xyz" src="https://plausible.io/js/plausible.js"></script><!-- Sensitive -->
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server."
+        />
+        <meta
+            name="keywords"
+            content="Heptagram, Heptagram Bot, Heptagram open source, Heptagram Discord Bot, Bot, Discord Bot, Moderation Discord, Discord Server Bot, Music Bot, Rules Bot, The Discord Bot, All-in-one discord bot, open source discord bot"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <meta name="application-name" content="Heptagram.xyz" />
+        <meta name="theme-color" content="#fff800" />
+        <!-- Windows Icons -->
+        <meta name="msapplication-config" content="%PUBLIC_URL%/browserconfig.xml" />
+        <meta name="msapplication-TileColor" content="#2c2f33" />
+        <meta name="msapplication-TileImage" content="%PUBLIC_URL%/mstile-150x150.png" />
+        <!-- Apple Icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png" />
+        <link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg" color="#ffff88" />
+        <meta name="apple-mobile-web-app-title" content="Heptagram.xyz" />
+        <!-- Favicons -->
+        <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="194x194" href="%PUBLIC_URL%/favicon-194x194.png" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="%PUBLIC_URL%/android-chrome-192x192.png"
+        />
+        <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://heptagram.xyz/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Heptagram - The All-in-one Discord Bot" />
+        <meta
+            property="og:description"
+            content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server."
+        />
+        <meta property="og:image" content="https://heptagram.xyz/full-heptagram-logo.png" />
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="heptagram.xyz" />
+        <meta property="twitter:url" content="https://heptagram.xyz/" />
+        <meta name="twitter:title" content="Heptagram - The All-in-one Discord Bot" />
+        <meta
+            name="twitter:description"
+            content="Heptagram is the all-in-one, Open Source Discord Bot with the goal to be the single bot needed for any server."
+        />
+        <meta name="twitter:image" content="https://heptagram.xyz/full-heptagram-logo.png" />
+        <!-- Title -->
+        <title>Heptagram - The All-in-one Discord Bot</title>
+        <!-- Import Scripts -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://kit.fontawesome.com/64fdbfc31c.js" crossorigin="anonymous"></script>
+        <!-- Sensitive -->
+        <script
+            defer
+            data-domain="heptagram.xyz"
+            src="https://plausible.io/js/plausible.js"
+        ></script>
+        <!-- Sensitive -->
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+    </body>
 </html>
