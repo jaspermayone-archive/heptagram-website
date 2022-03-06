@@ -18,6 +18,7 @@ function App() {
             <Router>
                 <Switch>
                     <Route exact path="/" component={HomePage} />
+                    <Redirect exact from="/home" to="/" />
                     <Route path="/contributors" component={ContributorsPage} />
                     <Route path="/bot-commands" component={BotCommandsPage} />
                     <Route path="/privacy-policy" component={PrivacyPolicyPage} />
