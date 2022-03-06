@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import { Route, BrowserRouter as Router, Redirect, Switch } from 'react-router-dom';
 
@@ -16,10 +17,7 @@ function App() {
         <ErrorBoundary FallbackComponent={Error500Page}>
             <Router>
                 <Switch>
-                    <Route exact path="/">
-                        <Redirect to="/home" />
-                    </Route>
-                    <Route exact path="/home" component={HomePage} />
+                    <Route exact path="/" component={HomePage} />
                     <Route path="/contributors" component={ContributorsPage} />
                     <Route path="/bot-commands" component={BotCommandsPage} />
                     <Route path="/privacy-policy" component={PrivacyPolicyPage} />
