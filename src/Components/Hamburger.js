@@ -69,7 +69,7 @@ const Menu = ({ open }) => {
                 </a>
             </li>
             <li className="nav-item">
-                <a href="https://discord.gg/HSupF99kpq" className="nav-link server">
+                <a href="https://discord.gg/yHFQWNtNDt" className="nav-link server">
                     Support Server
                 </a>
             </li>
@@ -79,7 +79,7 @@ const Menu = ({ open }) => {
                 </a>
             </li>
             <li className="nav-item">
-                <a href="https://api.heptagram.xyz" className="nav-link api">
+                <a href="https://api.heptagrambotproject.com" className="nav-link api">
                     API
                 </a>
             </li>

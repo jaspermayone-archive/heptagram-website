@@ -11,7 +11,7 @@ function Error404Page() {
             <h1>500</h1>
             <h2 className="sub-title">🚨 Internal Server Error !</h2>
             <p className="info">Something went wrong. 🤷‍♂️</p>
-            <a class="action-button" href="https://github.com/Heptagram-Bot/heptagram.xyz">
+            <a class="action-button" href="https://heptagrambotproject.com">
                 Raise an issue
             </a>
         </div>

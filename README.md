@@ -7,11 +7,11 @@ Heptagram is the all-in-one, open-source Discord bot with the goal to be the sin
 <br/>
 No more music bot, mod bot, rules bot. Just Heptagram
 
-Check out the website [here](https://heptagram.jaspermayone.com/)
+Check out the website [here](https://heptagrambotproject.com/)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Heptagram-Bot-Project/website/issues). If you are interested in contributing, we ask that you take a look at the [contributing guide](https://github.com/Heptagram-Bot-Project/bot/blob/master/CONTRIBUTING.md) before you contribute.
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Heptagram-Bot-Project-Project/website/issues). If you are interested in contributing, we ask that you take a look at the [contributing guide](https://github.com/Heptagram-Bot-Project-Project/bot/blob/master/CONTRIBUTING.md) before you contribute.
 
 ## 😎 Heptagram Team
 

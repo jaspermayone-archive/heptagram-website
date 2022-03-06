@@ -1,5 +1,4 @@
 import React from 'react';
-import FooterLegals from '../Components/Footer-Legals';
 import HeaderPrivacy from '../Components/Header-Privacy';
 
 import '../Styles/style-legals.css';
@@ -12,7 +11,7 @@ function PrivacyPolicyPage() {
                 <>
                     <p>
                         At Heptagram - The All-in-one Discord Bot, accessible from
-                        https://heptagram.xyz, one of our main priorities is the privacy of our
+                        https://heptagrambotproject.com, one of our main priorities is the privacy of our
                         visitors. This Privacy Policy document contains types of information that is
                         collected and recorded by Heptagram - The All-in-one Discord Bot and how we
                         use it.
@@ -179,7 +178,6 @@ function PrivacyPolicyPage() {
                         efforts to promptly remove such information from our records.
                     </p>
                 </>
-                <FooterLegals />
             </div>
         </div>
     );

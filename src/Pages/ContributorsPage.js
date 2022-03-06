@@ -144,10 +144,10 @@ function HomePage() {
                         </div>
                     </div>
                     <div className="others">
-                        <a href="https://github.com/Heptagram-Bot/Heptagram/graphs/contributors">
+                        <a href="https://github.com/Heptagram-Bot-Project/bot/graphs/contributors">
                             <button className="other-contributors">Bot Contributors</button>
                         </a>
-                        <a href="https://github.com/Heptagram-Bot/Heptagram.xyz/graphs/contributors">
+                        <a href="https://github.com/Heptagram-Bot-Project/bot/graphs/contributors">
                             <button className="other-contributors">Website Contributors</button>
                         </a>
                     </div>
