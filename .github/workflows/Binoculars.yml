@@ -16,7 +16,7 @@ jobs:
           enableComments: true
           minScore: 80
           outputDirectory: /tmp/artifacts
-          urls: 'https://heptagrambotproject.com|https://www.heptagrambotproject.com|heptagrambotproject.com/*'
+          urls: 'https://heptagrambotproject.com|https://www.heptagrambotproject.com'
           sha: ${{ github.sha }}
           slackWebhookUrl: ${{ secrets.BINOCULARS_WEBHOOK_URL }}
       - name: Upload artifacts
