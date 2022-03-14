@@ -1,0 +1,26 @@
+name: Binoculars
+on: [pull_request]
+
+jobs:
+  binoculars:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - run: mkdir /tmp/artifacts
+      - name: Run Binoculars SEO check
+        uses: foo-software/binoculars-action@master
+        with:
+          accessToken: ${{ secrets.BINOCULARS_GITHUB_ACCESS_TOKEN }}
+          author: ${{ github.actor }}
+          branch: ${{ github.ref }}
+          enableComments: true
+          minScore: 80
+          outputDirectory: /tmp/artifacts
+          urls: 'https://heptagrambotproject.com|https://www.heptagrambotproject.com|heptagrambotproject.com/*'
+          sha: ${{ github.sha }}
+          slackWebhookUrl: ${{ secrets.BINOCULARS_WEBHOOK_URL }}
+      - name: Upload artifacts
+        uses: actions/upload-artifact@master
+        with:
+          name: Binoculars reports
+          path: /tmp/artifacts
