@@ -1,5 +1,6 @@
+![websitebanner](https://user-images.githubusercontent.com/65788728/160951381-7ce58bbd-5ab8-4cb8-8545-3fa1b2e65e5b.png)
+
 <div align="center">
-<img src="public/full-heptagram-logo.png" width="180px">
 <h1>Heptagram Bot Website</h1>
 </div>
 
