@@ -4,6 +4,8 @@
 <h1>Heptagram Bot Website</h1>
 </div>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d2a3020b-c3a0-4828-8322-a9ce5918ab5b/deploy-status)](https://app.netlify.com/sites/lively-salmiakki-554d9d/deploys)
+
 Heptagram is the all-in-one, open-source Discord bot with the goal to be the single bot needed for any server.
 <br/>
 No more music bot, mod bot, rules bot. Just Heptagram
