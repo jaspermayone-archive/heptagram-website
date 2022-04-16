@@ -4,32 +4,12 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
-  <loc>https://heptagrambotproject.com/home</loc>
-  <lastmod>2021-10-31T16:49:24+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://heptagrambotproject.com/bot-commands</loc>
-  <lastmod>2021-10-31T16:49:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://heptagrambotproject.com/contributors</loc>
-  <lastmod>2021-10-31T16:49:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://heptagrambotproject.com/privacy-policy</loc>
-  <lastmod>2021-10-31T16:49:24+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://heptagrambotproject.com/terms-of-service</loc>
-  <lastmod>2021-10-31T16:49:24+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.heptagrambotproject.com/</loc>
+  <lastmod>2022-04-16T23:24:07+00:00</lastmod>
 </url>
 
 
