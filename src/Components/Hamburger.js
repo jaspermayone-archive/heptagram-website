@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import HeptagramLogo from '../Assets/full-heptagram-logo.png';
 
@@ -59,29 +60,29 @@ const StyledMenu = styled.nav`
 const Menu = ({ open }) => {
     return (
         <StyledMenu open={open}>
-            <a href="/">
+            <Link to="/">
                 <img src={HeptagramLogo} alt="Heptagram Logo" className="logo" />
-            </a>
+            </Link>
 
             <li className="nav-item second">
-                <a href="/" className="nav-link home active">
+                <Link to="/" className="nav-link home active">
                     Home
-                </a>
+                </Link>
             </li>
             <li className="nav-item">
-                <a href="https://discord.gg/yHFQWNtNDt" className="nav-link server">
+                <Link to="https://discord.gg/yHFQWNtNDt" className="nav-link server">
                     Support Server
-                </a>
+                </Link>
             </li>
             <li className="nav-item">
-                <a href="/bot-commands" className="nav-link commands">
+                <Link to="/bot-commands" className="nav-link commands">
                     Commands
-                </a>
+                </Link>
             </li>
             <li className="nav-item">
-                <a href="https://api.heptagrambotproject.com" className="nav-link api">
+                <Link to="https://api.heptagrambotproject.com" className="nav-link api">
                     API
-                </a>
+                </Link>
             </li>
         </StyledMenu>
     );
