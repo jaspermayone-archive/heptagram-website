@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link ,Navigate,useNavigate} from 'react-router-dom';
 
 import HeptagramLogo from '../Assets/full-heptagram-logo.png';
 import Hamburger from './Hamburger';
@@ -7,14 +8,14 @@ function Header() {
     return (
         <header className="header">
             <nav className="navbar">
-                <a href="/">
+                <Link to="/">
                     <img src={HeptagramLogo} alt="Heptagram Logo" className="logo" />
-                </a>
+                </Link>
                 <ul className="nav-menu">
                     <li className="nav-item second">
-                        <a href="/" className="nav-link home">
+                        <Link to="/" className="nav-link home">
                             Home
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
                         <a href="https://discord.gg/yHFQWNtNDt" className="nav-link server">
@@ -22,9 +23,9 @@ function Header() {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="/bot-commands" className="nav-link commands active">
+                        <Link to="/bot-commands" className="nav-link commands active">
                             Commands
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
                         <a href="https://api.heptagrambotproject.com" className="nav-link api">
