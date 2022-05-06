@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link ,Navigate,useNavigate} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import HeptagramLogo from '../Assets/full-heptagram-logo.png';
 function Footer() {
     return (
