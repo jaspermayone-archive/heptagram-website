@@ -2,7 +2,7 @@ import React from 'react';
 
 import HeptagramLogo from '../Assets/full-heptagram-logo.png';
 import Hamburger from './Hamburger';
-import {Link ,Navigate,useNavigate} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 function Header() {
     return (
         <header className="header">
