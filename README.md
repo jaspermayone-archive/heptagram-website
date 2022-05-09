@@ -5,6 +5,7 @@
 </div>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d2a3020b-c3a0-4828-8322-a9ce5918ab5b/deploy-status)](https://app.netlify.com/sites/lively-salmiakki-554d9d/deploys)
+[![Open Source Helpers](https://www.codetriage.com/heptagram-bot-project/website/badges/users.svg)](https://www.codetriage.com/heptagram-bot-project/website)
 
 Heptagram is the all-in-one, open-source Discord bot with the goal to be the single bot needed for any server.
 <br/>
