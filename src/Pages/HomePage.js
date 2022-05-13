@@ -16,7 +16,7 @@ function HomePage() {
                     <div className="left">
                         <h1>Heptagram is the all-in-one Discord Bot for your server!</h1>
                         <p>
-                            Heptagram is the All-In-One, Open-Source Discord Bo.
+                            Heptagram is the All-In-One, Open-Source Discord Bot.
                         </p>
                         <a href="https://discord.com/oauth2/authorize?client_id=946494580315017236&permissions=122682682614&scope=bot%20messages.read%20applications.commands">
                             <button className="invite-the-bot">
