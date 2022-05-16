@@ -18,13 +18,36 @@
     "web-vitals": "2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "prettier": "prettier --write \"./**/*.{md,jsx,json,html,css,js,yml}\"",
-    "prettier-check": "prettier --check \"./**/*.{md,jsx,json,html,css,js,yml}\"",
-    "partytown": "partytown copylib public/~partytown"
+    "start": "wireit",
+    "build": "wireit",
+    "test": "wireit",
+    "eject": "wireit",
+    "prettier": "wireit",
+    "prettier-check": "wireit",
+    "partytown": "wireit"
+  },
+  "wireit": {
+    "start": {
+      "command": "react-scripts start"
+    },
+    "build": {
+      "command": "react-scripts build"
+    },
+    "test": {
+      "command": "react-scripts test"
+    },
+    "eject": {
+      "command": "react-scripts eject"
+    },
+    "prettier": {
+      "command": "prettier --write \"./**/*.{md,jsx,json,html,css,js,yml}\""
+    },
+    "prettier-check": {
+      "command": "prettier --check \"./**/*.{md,jsx,json,html,css,js,yml}\""
+    },
+    "partytown": {
+      "command": "partytown copylib public/~partytown"
+    }
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +68,7 @@
     ]
   },
   "devDependencies": {
-    "prettier": "2.5.1"
+    "prettier": "2.5.1",
+    "wireit": "^0.4.3"
   }
 }
