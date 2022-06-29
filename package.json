@@ -70,6 +70,6 @@
   },
   "devDependencies": {
     "prettier": "2.7.1",
-    "wireit": "0.4.3"
+    "wireit": "0.7.1"
   }
 }
