@@ -235,6 +235,9 @@ html {
     justify-content: center;
     visibility: visible;
   }
+  .homePage button {
+    margin-left: 0;
+  }
 }
 
 @media screen and (min-width: 1500px) {
