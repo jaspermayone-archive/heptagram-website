@@ -58,6 +58,9 @@ const StyledMenu = styled.nav`
 `;
 
 const Menu = ({ open }) => {
+    const redirect = () => {
+        window.location.href = "https://www.heptagrambotproject.com/"; //We will implement this once the backend is figured out.
+      };
     return (
         <StyledMenu open={open}>
             <Link to="/">
@@ -83,6 +86,11 @@ const Menu = ({ open }) => {
                 <Link to="https://api.heptagrambotproject.com" className="nav-link api">
                     API
                 </Link>
+            </li>
+            <li>
+                <button onClick={redirect} type="button" className="nav-discord">
+                    Sign in with Discord
+                </button>
             </li>
         </StyledMenu>
     );
