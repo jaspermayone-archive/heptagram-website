@@ -1,6 +1,7 @@
 {
   "name": "heptagrambotproject.com",
   "version": "0.2.3",
+  "packageManager": "yarn@3.2.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "5.16.4",
