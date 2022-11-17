@@ -6698,7 +6698,7 @@ __metadata:
     set-value: 4.1.0
     styled-components: 5.3.6
     web-vitals: 2.1.4
-    wireit: 0.7.1
+    wireit: 0.7.3
   languageName: unknown
   linkType: soft
 
@@ -12805,9 +12805,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wireit@npm:0.7.1":
-  version: 0.7.1
-  resolution: "wireit@npm:0.7.1"
+"wireit@npm:0.7.3":
+  version: 0.7.3
+  resolution: "wireit@npm:0.7.3"
   dependencies:
     braces: ^3.0.2
     chokidar: ^3.5.3
@@ -12816,7 +12816,7 @@ __metadata:
     proper-lockfile: ^4.1.2
   bin:
     wireit: bin/wireit.js
-  checksum: 1fc70cf5c87df59d898cebd5f514d2b13f134aad9b3585837ab08dae6bc50d7df1655894365a8d2591d7511c5f7092a434bc9d796e6012d7526a7b398d1275e3
+  checksum: ec31de59c509c427804f74b9756010069ca7afa12e0fa85fef0649c97b49b8f536500fbd57f3030850a9f72418fce5fef1ce85d3df4934c9ac0b5dd1285f0a82
   languageName: node
   linkType: hard
 
