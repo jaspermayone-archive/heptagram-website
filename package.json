@@ -1,8 +1,6 @@
 {
   "name": "heptagrambotproject.com",
   "version": "2.0.0",
-  "packageManager": "yarn@3.2.1",
-  "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
