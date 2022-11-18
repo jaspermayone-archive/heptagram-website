@@ -30,6 +30,14 @@ function Footer() {
                 <Link to="/privacy-policy">Privacy Policy</Link>
                 <Link to="/terms-of-service">Terms of Service</Link>
             </div>
+            <div className='most-right-part'>
+                <a href="https://www.netlify.com">
+                    <img
+                        src="https://www.netlify.com/img/global/badges/netlify-dark.svg"
+                        alt="Deploys by Netlify"
+                    />
+                </a>
+            </div>
         </footer>
     );
 }
